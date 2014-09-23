@@ -10,6 +10,8 @@ __author__ = 'jason.a.parent@gmail.com (Jason Parent)'
 import argparse
 import json
 import os
+import pprint
+import re
 import sys
 import urlparse
 
@@ -18,48 +20,141 @@ import bs4
 import requests
 
 
-EXERCISES_LISTS_URL = 'http://www.exrx.net/Lists/'
+EXRX_URL = 'http://www.exrx.net/'
+EXRX_LISTS_URL = 'http://www.exrx.net/Lists/'
+
+
+def is_exercise_page(html):
+    # Check has instructions...
+    has_instructions = lambda t: t.name == 'h2' and t.string == 'Instructions'
+
+    # Check has comments...
+    has_comments = lambda t: t.name == 'h2' and t.string == 'Comments'
+
+    # Check has classification...
+    has_classification = lambda t: t.name == 'h2' and t.string == 'Classification'
+
+    # Check has muscles...
+    has_muscles = lambda t: t.name == 'h2' and t.string == 'Muscles'
+
+    return bool(html.find_all(has_instructions) and
+                html.find_all(has_comments) and
+                html.find_all(has_classification) and
+                html.find_all(has_muscles))
+
+
+def create_exercise_object(html):
+    exercise = dict()
+
+    # Add name...
+    name = html.find(lambda t: t.name == 'a' and t.parent.name == 'h1').string
+    name = re.sub(r'\s+', ' ', name)
+
+    exercise['name'] = name
+
+    # Add instructions...
+    def get_instructions_sub(title):
+        p = html.find(lambda t: t.name == 'p' and t.string == title)
+        sibling = p.next_sibling
+
+        while not isinstance(sibling, bs4.element.Tag) and sibling.name != 'dl':
+            sibling = sibling.next_sibling            
+
+        return '\n'.join([re.sub(r'\s+', ' ', tag.string) for tag in sibling.dd]).strip()
+
+    preparation = get_instructions_sub('Preparation')
+    execution = get_instructions_sub('Execution')
+
+    exercise['instructions'] = {
+        'preparation': preparation,
+        'execution': execution
+    }
+
+    # Add comments...
+    def get_comments_sub():
+        h2 = html.find(lambda t: t.name == 'h2' and t.string == 'Comments')
+        sibling = h2.next_sibling
+
+        while not isinstance(sibling, bs4.element.Tag) and sibling.name != 'dl':
+            sibling = sibling.next_sibling            
+
+        return '\n'.join([re.sub(r'\s+', ' ', tag.string) for tag in sibling.dd]).strip()
+
+    comments = get_comments_sub()
+
+    exercise['comments'] = comments
+
+    # Add classification...
+    utility = ''
+    mechanics = ''
+    force = ''
+
+    exercise['classification'] = {
+        'utility': utility,
+        'mechanics': mechanics,
+        'force': force
+    }
+
+    # Add muscles...
+    target = ''
+    synergists = []
+    stabilizers = []
+
+    exercise['muscles'] = {
+        'target': target,
+        'synergists': synergists,
+        'stabilizers': stabilizers
+    }
+
+    return exercise
 
 
 def exercise_scraper():
     exercises = dict()
 
     # Retrieve the exercises main page...
-    exercises_dir_url = urlparse.urljoin(EXERCISES_LISTS_URL, 'Directory.html')
+    exercises_dir_url = urlparse.urljoin(EXRX_LISTS_URL, 'Directory.html')
     exercises_dir_request = requests.get(exercises_dir_url)
 
     if exercises_dir_request.status_code == requests.codes.ok:
         exercises_dir_html = bs4.BeautifulSoup(exercises_dir_request.content)
 
-        # The list of exercises is located in the third table in the page...
-        exercises_table_html = exercises_dir_html.select('table[border="1"]')[0]
+        # Get all links that lead to exercise groups...
+        def is_exercise_group_link(tag):
+            return (tag.name == 'a' and 
+                    tag.has_attr('href') and 
+                    tag['href'].startswith('ExList') and 
+                    tag['href'].find('#') == -1)
 
-        def get_muscle_group_hrefs(table_html):
-            exercises_list_html = exercises_table_html.td.ul
+        for link in exercises_dir_html.find_all(is_exercise_group_link):
+            href = link['href']
+            url = urlparse.urljoin(EXRX_LISTS_URL, href)
+            request = requests.get(url)
 
-            for item in exercises_list_html.select('li'):
-                item_anchor = item.find('a')
+            if request.status_code == requests.codes.ok:
+                weight_exercises_dir_html = bs4.BeautifulSoup(request.content)
 
-                if item_anchor != -1:
-                    item_href = item_anchor['href']
+                # Get all links that lead to exercises...
+                def is_exercise_link(tag):
+                    return (tag.name == 'a' and 
+                            tag.has_attr('href') and 
+                            tag['href'].find('WeightExercises') != -1)
 
-                    if item_href.startswith('ExList') and item_href.find('#') == -1:
-                        muscle_group = item_anchor.string
+                for link in weight_exercises_dir_html.find_all(is_exercise_link)[:1]:
+                    href = link['href']
+                    url = urlparse.urljoin(url, href)
+                    request = requests.get(url)
 
-                        print('Adding muscle group:', muscle_group)
+                    if request.status_code == requests.codes.ok:
+                        exercise_html = bs4.BeautifulSoup(request.content)
 
-                        # Add first-level directory item to 'exercises' dictionary...
-                        exercises[muscle_group] = dict(url=urlparse.urljoin(EXERCISES_LISTS_URL, item_href))
+                        if is_exercise_page(exercise_html):
+                            exercise = create_exercise_object(exercise_html)
 
-        get_muscle_group_hrefs(exercises_table_html)
+                            pprint.pprint(exercise)
 
-        for exercise_key, exercise_value in exercises.items():
-            print('Retrieving exercises for muscle group:', exercise_key)
-
-            muscle_group_request = requests.get(exercise_value.get('url'))
-
-            if muscle_group_request.status_code == requests.codes.ok:
-                muscle_group_html = bs4.BeautifulSoup(muscle_group_request.content)
+                        else:
+                            print('Not exercise page:', url)
 
 
 def main():
