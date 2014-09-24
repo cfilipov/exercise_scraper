@@ -2,7 +2,7 @@
 
 from __future__ import print_function
 
-"""Module docstring."""
+"""A script for scraping data from the ExRx.net exercise database."""
 
 __author__ = 'jason.a.parent@gmail.com (Jason Parent)'
 
@@ -60,7 +60,7 @@ def create_exercise_object(html):
         while not isinstance(sibling, bs4.element.Tag) and sibling.name != 'dl':
             sibling = sibling.next_sibling            
 
-        return '\n'.join([re.sub(r'\s+', ' ', tag.string) for tag in sibling.dd]).strip()
+        return ''.join([re.sub(r'\s+', ' ', tag.string) for tag in sibling.dd]).strip()
 
     preparation = get_instructions_sub('Preparation')
     execution = get_instructions_sub('Execution')
@@ -78,16 +78,33 @@ def create_exercise_object(html):
         while not isinstance(sibling, bs4.element.Tag) and sibling.name != 'dl':
             sibling = sibling.next_sibling            
 
-        return '\n'.join([re.sub(r'\s+', ' ', tag.string) for tag in sibling.dd]).strip()
+        return ''.join([re.sub(r'\s+', ' ', tag.string) for tag in sibling.dd]).strip()
 
     comments = get_comments_sub()
 
     exercise['comments'] = comments
 
     # Add classification...
-    utility = ''
-    mechanics = ''
-    force = ''
+    classification_table = html.find('blockquote').find('table')
+
+    def find_classification_value(key):
+        def is_td(tag):
+            return (tag.name == 'td' and
+                    tag.b and
+                    tag.b.string and
+                    tag.b.string.find(key) != -1)
+
+        td = classification_table.find(is_td)
+        sibling = td.next_sibling
+
+        while not isinstance(sibling, bs4.element.Tag) and sibling.name != 'td':
+            sibling = sibling.next_sibling
+
+        return ''.join([re.sub(r'\s+', ' ', s) for s in sibling.strings]).strip()
+
+    utility = find_classification_value('Utility')
+    mechanics = find_classification_value('Mechanics')
+    force = find_classification_value('Force')
 
     exercise['classification'] = {
         'utility': utility,
@@ -96,21 +113,31 @@ def create_exercise_object(html):
     }
 
     # Add muscles...
-    target = ''
-    synergists = []
-    stabilizers = []
+    def get_muscles_sub(title):
+        p = html.find(lambda t: t.name == 'p' and t.string == title)
+        sibling = p.next_sibling
+
+        while not isinstance(sibling, bs4.element.Tag) and sibling.name != 'ul':
+            sibling = sibling.next_sibling
+
+        return [re.sub(r'\s+', ' ', ''.join(li.strings)).strip()
+                for li in sibling.find_all('li') if li.strings]
+
+    target = ''.join(get_muscles_sub('Target'))
+    # synergists = get_muscles_sub('Synergists')
+    # stabilizers = get_muscles_sub('Stabilizers')
 
     exercise['muscles'] = {
         'target': target,
-        'synergists': synergists,
-        'stabilizers': stabilizers
+        # 'synergists': synergists,
+        # 'stabilizers': stabilizers
     }
 
     return exercise
 
 
 def exercise_scraper():
-    exercises = dict()
+    exercises = list()
 
     # Retrieve the exercises main page...
     exercises_dir_url = urlparse.urljoin(EXRX_LISTS_URL, 'Directory.html')
@@ -140,7 +167,7 @@ def exercise_scraper():
                             tag.has_attr('href') and 
                             tag['href'].find('WeightExercises') != -1)
 
-                for link in weight_exercises_dir_html.find_all(is_exercise_link)[:1]:
+                for link in weight_exercises_dir_html.find_all(is_exercise_link):
                     href = link['href']
                     url = urlparse.urljoin(url, href)
                     request = requests.get(url)
@@ -149,16 +176,26 @@ def exercise_scraper():
                         exercise_html = bs4.BeautifulSoup(request.content)
 
                         if is_exercise_page(exercise_html):
-                            exercise = create_exercise_object(exercise_html)
-
-                            pprint.pprint(exercise)
+                            try:
+                                exercise = create_exercise_object(exercise_html)
+                                exercises.append(exercise)
+                            except Exception, error:
+                                print('Error:', url)
 
                         else:
                             print('Not exercise page:', url)
 
+    return exercises
+
 
 def main():
-    exercise_scraper()
+    exercises = exercise_scraper()
+    exercises_json = json.dumps({
+        'exercises': exercises
+    })
+
+    with open('exercises.json', 'wt') as exercises_file:
+        exercises_file.write(exercises_json)
 
     return 0
 
