@@ -7,12 +7,10 @@ from __future__ import print_function
 __author__ = 'jason.a.parent@gmail.com (Jason Parent)'
 
 # Standard library imports...
-import argparse
 import json
-import os
-import pprint
 import re
 import sys
+import time
 import urlparse
 
 # Third-party imports...
@@ -26,31 +24,57 @@ EXRX_LISTS_URL = 'http://www.exrx.net/Lists/'
 
 def is_exercise_page(html):
     # Check has instructions...
-    has_instructions = lambda t: t.name == 'h2' and t.string == 'Instructions'
+    has_instructions = html.find_all(lambda t: t.name == 'h2' and t.string == 'Instructions')
+
+    if not has_instructions:
+        print('No instructions')
 
     # Check has comments...
-    has_comments = lambda t: t.name == 'h2' and t.string == 'Comments'
+    # has_comments = html.find_all(lambda t: t.name == 'h2' and t.string == 'Comments')
+    #
+    # if not has_comments:
+    #     print('No comments')
 
     # Check has classification...
-    has_classification = lambda t: t.name == 'h2' and t.string == 'Classification'
+    has_classification = html.find_all(lambda t: t.name == 'h2' and t.string == 'Classification')
+
+    if not has_classification:
+        print('No classification')
 
     # Check has muscles...
-    has_muscles = lambda t: t.name == 'h2' and t.string == 'Muscles'
+    has_muscles = html.find_all(lambda t: t.name == 'h2' and t.string == 'Muscles')
 
-    return bool(html.find_all(has_instructions) and
-                html.find_all(has_comments) and
-                html.find_all(has_classification) and
-                html.find_all(has_muscles))
+    if not has_muscles:
+        print('No muscles')
+
+    return bool(has_instructions and has_classification and has_muscles)
+    # return bool(has_instructions and has_comments and has_classification and has_muscles)
 
 
 def create_exercise_object(html):
     exercise = dict()
 
-    # Add name...
-    name = html.find(lambda t: t.name == 'a' and t.parent.name == 'h1').string
-    name = re.sub(r'\s+', ' ', name)
+    # Add gif...
+    try:
+        def gif_filter(tag):
+            src = tag.attrs.get('src', '')
+            return tag.name == 'img' and '.gif' in src and 'AnimatedEx' in src
 
-    exercise['name'] = name
+        gif = html.find(gif_filter)
+        gif = gif.attrs.get('src', '').lstrip('../../')
+
+        if gif:
+            exercise['gif'] = urlparse.urljoin(EXRX_URL, gif)
+    except Exception:
+        raise Exception('Error adding gif...')
+
+    # Add name...
+    try:
+        name = html.find(lambda t: t.name == 'a' and t.parent.name == 'h1').string
+        name = re.sub(r'\s+', ' ', name)
+        exercise['name'] = name
+    except Exception:
+        raise Exception('Error adding name...')
 
     # Add instructions...
     def get_instructions_sub(title):
@@ -62,27 +86,29 @@ def create_exercise_object(html):
 
         return ''.join([re.sub(r'\s+', ' ', tag.string) for tag in sibling.dd]).strip()
 
-    preparation = get_instructions_sub('Preparation')
-    execution = get_instructions_sub('Execution')
-
-    exercise['instructions'] = {
-        'preparation': preparation,
-        'execution': execution
-    }
+    try:
+        preparation = get_instructions_sub('Preparation')
+        execution = get_instructions_sub('Execution')
+        exercise['instructions'] = {
+            'preparation': preparation,
+            'execution': execution
+        }
+    except Exception:
+        raise Exception('Error adding instructions...')
 
     # Add comments...
-    def get_comments_sub():
-        h2 = html.find(lambda t: t.name == 'h2' and t.string == 'Comments')
-        sibling = h2.next_sibling
-
-        while not isinstance(sibling, bs4.element.Tag) and sibling.name != 'dl':
-            sibling = sibling.next_sibling            
-
-        return ''.join([re.sub(r'\s+', ' ', tag.string) for tag in sibling.dd]).strip()
-
-    comments = get_comments_sub()
-
-    exercise['comments'] = comments
+    # def get_comments_sub():
+    #     h2 = html.find(lambda t: t.name == 'h2' and t.string == 'Comments')
+    #     sibling = h2.next_sibling
+    #
+    #     while not isinstance(sibling, bs4.element.Tag) and sibling.name != 'dl':
+    #         sibling = sibling.next_sibling
+    #
+    #     return ''.join([re.sub(r'\s+', ' ', tag.string) for tag in sibling.dd]).strip()
+    #
+    # comments = get_comments_sub()
+    #
+    # exercise['comments'] = comments
 
     # Add classification...
     classification_table = html.find('blockquote').find('table')
@@ -102,15 +128,17 @@ def create_exercise_object(html):
 
         return ''.join([re.sub(r'\s+', ' ', s) for s in sibling.strings]).strip()
 
-    utility = find_classification_value('Utility')
-    mechanics = find_classification_value('Mechanics')
-    force = find_classification_value('Force')
-
-    exercise['classification'] = {
-        'utility': utility,
-        'mechanics': mechanics,
-        'force': force
-    }
+    try:
+        utility = find_classification_value('Utility')
+        mechanics = find_classification_value('Mechanics')
+        force = find_classification_value('Force')
+        exercise['classification'] = {
+            'utility': utility,
+            'mechanics': mechanics,
+            'force': force
+        }
+    except Exception:
+        raise Exception('Error adding classification...')
 
     # Add muscles...
     def get_muscles_sub(title):
@@ -123,15 +151,17 @@ def create_exercise_object(html):
         return [re.sub(r'\s+', ' ', ''.join(li.strings)).strip()
                 for li in sibling.find_all('li') if li.strings]
 
-    target = ''.join(get_muscles_sub('Target'))
-    # synergists = get_muscles_sub('Synergists')
-    # stabilizers = get_muscles_sub('Stabilizers')
-
-    exercise['muscles'] = {
-        'target': target,
-        # 'synergists': synergists,
-        # 'stabilizers': stabilizers
-    }
+    try:
+        target = ''.join(get_muscles_sub('Target'))
+        # synergists = get_muscles_sub('Synergists')
+        # stabilizers = get_muscles_sub('Stabilizers')
+        exercise['muscles'] = {
+            'target': target,
+            # 'synergists': synergists,
+            # 'stabilizers': stabilizers
+        }
+    except Exception:
+        raise Exception('Error adding muscles...')
 
     return exercise
 
@@ -180,7 +210,7 @@ def exercise_scraper():
                                 exercise = create_exercise_object(exercise_html)
                                 exercises.append(exercise)
                             except Exception, error:
-                                print('Error:', url)
+                                print(error, url)
 
                         else:
                             print('Not exercise page:', url)
@@ -201,5 +231,7 @@ def main():
 
 
 if __name__ == '__main__':
+    start = time.time()
     status = main()
+    print('Total time:', time.time() - start)
     sys.exit(status)
