@@ -197,7 +197,12 @@ def exercise_scraper():
                             tag.has_attr('href') and 
                             tag['href'].find('WeightExercises') != -1)
 
-                for link in weight_exercises_dir_html.find_all(is_exercise_link):
+                import itertools
+
+                barbell_links = iter(weight_exercises_dir_html.find_all('a', href=re.compile(r'/BB')))
+                dumbbell_links = iter(weight_exercises_dir_html.find_all('a', href=re.compile(r'/DB')))
+
+                for link in list(itertools.chain(barbell_links, dumbbell_links)):
                     href = link['href']
                     url = urlparse.urljoin(url, href)
                     request = requests.get(url)

@@ -1,0 +1,3268 @@
+{
+  "exercises": [
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/DeltoidAnterior/BBSeatedBehindNeckPress.gif",
+      "muscles": {
+        "target": "Deltoid, Anterior"
+      },
+      "name": "Barbell Behind Neck Press",
+      "classification": {
+        "mechanics": "Compound",
+        "force": "Push",
+        "utility": "Basic"
+      },
+      "instructions": {
+        "preparation": "Grasp barbell with overhand grip from rack or clean from floor. Position bar behind neck.",
+        "execution": "Press bar upward until arms are extended overhead. Return behind neck and repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/DeltoidAnterior/BBFrontRaise.gif",
+      "muscles": {
+        "target": "Deltoid, Anterior"
+      },
+      "name": "Barbell Front Raise",
+      "classification": {
+        "mechanics": "Isolated",
+        "force": "Push",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Grasp barbell with overhand grip with elbows straight or slightly bent.",
+        "execution": "Raise barbell forward and upward until upper arms are above horizontal. Lower and repeat"
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/DeltoidAnterior/BBInclineFrontRaise.gif",
+      "muscles": {
+        "target": "Deltoid, Anterior"
+      },
+      "name": "Barbell Incline Front Raise",
+      "classification": {
+        "mechanics": "Isolated",
+        "force": "Push",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Grasp barbell with shoulder width overhand grip. Lie supine on upper portion of 45 degree incline bench with legs straight. Position barbell on top of upper thighs.",
+        "execution": "With elbows straight or slightly bent, raise barbell up and over shoulders until uppers arm are vertical. Lower barbell to upper thigh and repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/DeltoidAnterior/BBSeatedMilitaryPressFF.gif",
+      "muscles": {
+        "target": "Deltoid, Anterior"
+      },
+      "name": "Barbell Seated Military Press",
+      "classification": {
+        "mechanics": "Compound",
+        "force": "Push",
+        "utility": "Basic"
+      },
+      "instructions": {
+        "preparation": "Grasp barbell with slightly wider than shoulder width overhand grip from rack. Position bar near upper chest.",
+        "execution": "Press bar upward until arms are extended overhead. Return to upper chest and repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/DeltoidAnterior/BBShoulderPress.gif",
+      "muscles": {
+        "target": "Deltoid, Anterior"
+      },
+      "name": "Barbell Shoulder Press",
+      "classification": {
+        "mechanics": "Compound",
+        "force": "Push",
+        "utility": "Basic"
+      },
+      "instructions": {
+        "preparation": "Grasp barbell with slightly wider than shoulder width overhand grip from rack. Position bar near upper chest.",
+        "execution": "Press bar upward until arms are extended overhead. Return to upper chest and repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/DeltoidLateral/BBUprightRowM.gif",
+      "muscles": {
+        "target": "Deltoid, Lateral"
+      },
+      "name": "Barbell Upright Row",
+      "classification": {
+        "mechanics": "Compound",
+        "force": "Pull",
+        "utility": "Basic"
+      },
+      "instructions": {
+        "preparation": "Grasp bar with shoulder width or slightly narrower overhand grip.",
+        "execution": "Pull bar to neck with elbows leading. Allow wrists to flex as bar rises. Lower and repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/DeltoidPosterior/BBRearDeltRaise.gif",
+      "muscles": {
+        "target": "Deltoid, Posterior"
+      },
+      "name": "Barbell Rear Delt Raise",
+      "classification": {
+        "mechanics": "Isolated",
+        "force": "Pull",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Stand holding barbell behind thighs or hips with arms straight down to sides.",
+        "execution": "Pull barbell behind hips and low back up as far as possible allowing elbows to travel up behind body to each side. Flex wrists near top of movement so bar can be raised higher. Lower until arms and wrists are straight. Repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/DeltoidPosterior/BBRearDeltRow.gif",
+      "muscles": {
+        "target": "Deltoid, Posterior"
+      },
+      "name": "Barbell Rear Delt Row",
+      "classification": {
+        "mechanics": "Compound",
+        "force": "Pull",
+        "utility": "Basic or Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Bend knees slightly and bend over bar with back straight, approximately horizontal. Grasp bar with wide overhand grip.",
+        "execution": "Keeping upper arm perpendicular to torso, pull barbell up toward upper chest until upper arms are just beyond horizontal. Return and repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/DeltoidPosterior/BBLyingRearDeltRow.gif",
+      "muscles": {
+        "target": "Deltoid, Posterior"
+      },
+      "name": "Barbell Lying Rear Delt Row",
+      "classification": {
+        "mechanics": "Compound",
+        "force": "Pull",
+        "utility": "Basic or Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Lie chest down on elevated bench. Grasp bar with wide overhand grip.",
+        "execution": "Keeping upper arm perpendicular to torso, pull barbell up toward upper chest until upper arms are just beyond parallel to floor. Return and repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/DeltoidAnterior/DBArnoldPress.gif",
+      "muscles": {
+        "target": "Deltoid, Anterior"
+      },
+      "name": "Dumbbell Arnold Press",
+      "classification": {
+        "mechanics": "Compound",
+        "force": "Push",
+        "utility": "Basic or Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Stand with two dumbbells position in front of shoulders, palms facing body and elbows under wrists.",
+        "execution": "Initiate movement by bringing elbows out to sides. Continue to raise elbows outward while pressing dumbbells overhead until arms are straight. Lower to front of shoulders in opposite pattern and repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/DeltoidAnterior/DBFrontRaise.gif",
+      "muscles": {
+        "target": "Deltoid, Anterior"
+      },
+      "name": "Dumbbell Front Raise",
+      "classification": {
+        "mechanics": "Isolated",
+        "force": "Push",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Grasp dumbbells in both hands. Position dumbbells in front of upper legs with elbows straight or slightly bent.",
+        "execution": "Raise dumbbells forward and upward until upper arms are above horizontal. Lower and repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/DeltoidAnterior/DBAlternatingFrontRaise.gif",
+      "muscles": {
+        "target": "Deltoid, Anterior"
+      },
+      "name": "Dumbbell Alternating Front Raise",
+      "classification": {
+        "mechanics": "Isolated",
+        "force": "Push",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Grasp dumbbells in both hands. Position dumbbells in front of upper legs with elbows straight or slightly bent.",
+        "execution": "Raise one dumbbell forward and upward with until upper arm is above horizontal. Lower and repeat with opposite arm, alternating between arms."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/DeltoidAnterior/DBAlternInclineFrontRaise.gif",
+      "muscles": {
+        "target": "Deltoid, Anterior"
+      },
+      "name": "Dumbbell Alternating Incline Front Raise",
+      "classification": {
+        "mechanics": "Isolated",
+        "force": "Push",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Grasp dumbbells and lie supine on upper portion of 45 degree incline bench with legs straight. Position dumbbells downward below each shoulder.",
+        "execution": "With elbows straight or slightly bent, raise one dumbbell forward, up and over shoulder until upper arm is vertical. Lower dumbbell down to starting position. Repeat raise with other arm, alternating between sides."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/DeltoidAnterior/DBShoulderPress.gif",
+      "muscles": {
+        "target": "Deltoid, Anterior"
+      },
+      "name": "Dumbbell Shoulder Press",
+      "classification": {
+        "mechanics": "Compound",
+        "force": "Push",
+        "utility": "Basic"
+      },
+      "instructions": {
+        "preparation": "Position dumbbells to each side of shoulders with elbows below wrists.",
+        "execution": "Press dumbbells upward until arms are extended overhead. Lower to sides of shoulders and repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/DeltoidAnterior/DBOneArmShoulderPressLean.gif",
+      "muscles": {
+        "target": "Deltoid, Anterior"
+      },
+      "name": "Dumbbell One Arm Shoulder Press",
+      "classification": {
+        "mechanics": "Compound",
+        "force": "Push",
+        "utility": "Basic or Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Stand with dumbbells positioned near shoulder with elbow below wrists.",
+        "execution": "Press dumbbell upward until arm is extended overhead. Lower to side of shoulder and repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/DeltoidLateral/DBInclineLateralRaise.gif",
+      "muscles": {
+        "target": "Deltoid, Lateral"
+      },
+      "name": "Dumbbell Incline Lateral Raise",
+      "classification": {
+        "mechanics": "Isolated",
+        "force": "Pull",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Grasp dumbbell in one hand. Lie on 30° to 45° incline bench with opposite side of body on incline, arm over top of bench, lower leg positioned on front side of seat, and upper leg on back side of seat. Position dumbbell inside of lower leg, just in front of upper leg.",
+        "execution": "Raise dumbbell from until upper arm is perpendicular to torso. Maintain slight fixed bend in elbow throughout exercise. Lower dumbbell to front of upper leg and repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/DeltoidLateral/DBLateralRaise.gif",
+      "muscles": {
+        "target": "Deltoid, Lateral"
+      },
+      "name": "Dumbbell Lateral Raise",
+      "classification": {
+        "mechanics": "Isolated",
+        "force": "Pull",
+        "utility": "Basic or Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Grasp dumbbells in front of thighs with elbows slightly bent. Bend over slightly with hips and knees bent slightly.",
+        "execution": "Raise upper arms to sides until elbows are shoulder height. Maintain elbows' height above or equal to wrists. Lower and repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/DeltoidLateral/DBOneArmLateralRaise.gif",
+      "muscles": {
+        "target": "Deltoid, Lateral"
+      },
+      "name": "Dumbbell One Arm Lateral Raise",
+      "classification": {
+        "mechanics": "Isolated",
+        "force": "Pull",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Position dumbbell in front of pelvis with elbow slightly bent. Grasp stationary object with other hand for support. Bend over with hips and knees bent slightly.",
+        "execution": "Raise upper arm to side until elbow is shoulder height. Maintain elbow's height above or equal to wrist. Lower and repeat. Continue with opposite arm."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/DeltoidLateral/DBOneArmSeatedLateralRaise.gif",
+      "muscles": {
+        "target": "Deltoid, Lateral"
+      },
+      "name": "Dumbbell One Arm Seated Lateral Raise",
+      "classification": {
+        "mechanics": "Isolated",
+        "force": "Pull",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Sit on stool or end of bench with legs together. Position dumbbell to side with elbow slightly bent. Angle torso foward slightly and place free hand onSELECTION/SELECTION end of thigh for support.",
+        "execution": "Raise upper arm to side until elbow is shoulder height. Maintain elbow's height above or equal to wrist. Lower and repeat. Continue with opposite arm."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/DeltoidLateral/DBLyingLateralRaise.gif",
+      "muscles": {
+        "target": "Deltoid, Lateral"
+      },
+      "name": "Dumbbell Lying Lateral Raise",
+      "classification": {
+        "mechanics": "Isolated",
+        "force": "Pull",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Lie on side with legs separated for support. Grasp dumbbell in front of thigh.",
+        "execution": "Raise dumbbell from floor until arm is vertical. Maintain fixed elbow position (10° to 30° angle) throughout exercise. Lower and repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/DeltoidLateral/DBRaise8.gif",
+      "muscles": {
+        "target": "Deltoid, Lateral"
+      },
+      "name": "Dumbbell Raise",
+      "classification": {
+        "mechanics": "Compound",
+        "force": "Pull",
+        "utility": "Basic"
+      },
+      "instructions": {
+        "preparation": "Stand and grasp dumbbells with arms to side, palms facing sides of thighs.",
+        "execution": "Pull dumbbells up to sides of ribs with elbows out to sides. Lower and repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/DeltoidLateral/DBUprightRow.gif",
+      "muscles": {
+        "target": "Deltoid, Lateral"
+      },
+      "name": "Dumbbell Upright Row",
+      "classification": {
+        "mechanics": "Compound",
+        "force": "Pull",
+        "utility": "Basic"
+      },
+      "instructions": {
+        "preparation": "Grasp dumbbells and stand with palms facing front of thighs.",
+        "execution": "Pull dumbbells to front of shoulder with elbows leading out to sides. Allow wrists to flex as dumbbells rise upward. Lower and repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/DeltoidLateral/DBOneArmUprightRow.gif",
+      "muscles": {
+        "target": "Deltoid, Lateral"
+      },
+      "name": "Dumbbell One Arm Upright Row",
+      "classification": {
+        "mechanics": "Compound",
+        "force": "Pull",
+        "utility": "Basic"
+      },
+      "instructions": {
+        "preparation": "Grasp dumbbells with palms facing front of thighs. Position other hand for support.",
+        "execution": "Pull dumbbell to front of shoulder with elbow leading. Allow wrist to flex as dumbbell rises upward. Lower and repeat. Continue with opposite arm."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/DeltoidLateral/DBOneArmSeatedUprightRow.gif",
+      "muscles": {
+        "target": "Deltoid, Lateral"
+      },
+      "name": "Dumbbell Seated Upright Row",
+      "classification": {
+        "mechanics": "Compound",
+        "force": "Pull",
+        "utility": "Basic"
+      },
+      "instructions": {
+        "preparation": "Sit on end of bench with legs far apart. Grasp dumbbell between legs with arm vertical under shoulder. Position torso slightly forward with hand on knee for support.",
+        "execution": "Pull dumbbell to front of shoulder with elbow leading out to side. Allow wrists to flex as dumbbell rises upward. Lower and repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/DeltoidPosterior/DBLyingRearDeltRaise.gif",
+      "muscles": {
+        "target": "Deltoid, Posterior"
+      },
+      "name": "Dumbbell Lying Rear Delt Raise",
+      "classification": {
+        "mechanics": "Compound",
+        "force": "Pull",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Lie on side with legs separated for support. Grasp dumbbell in front of chest, palm facing down, arm extended forward with slight bend.",
+        "execution": "Raise dumbbell from floor until it travels above shoulder. Return dumbbell to floor at original position. Repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/DeltoidPosterior/DBLyingRearDeltRow.gif",
+      "muscles": {
+        "target": "Deltoid, Posterior"
+      },
+      "name": "Dumbbell Lying Rear Delt Row",
+      "classification": {
+        "mechanics": "Compound",
+        "force": "Pull",
+        "utility": "Basic or Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Lie chest down on elevated bench. Grasp dumbbells below.",
+        "execution": "Keeping upper arm perpendicular to torso and dumbbells just below elbows, pull dumbbells up until elbows are just above shoulders. Return and repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/DeltoidPosterior/DBLyingRearLateralRaise.gif",
+      "muscles": {
+        "target": "Deltoid, Posterior"
+      },
+      "name": "Dumbbell Lying Rear Lateral Raise",
+      "classification": {
+        "mechanics": "Isolated",
+        "force": "Pull",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Lie chest down on elevated bench. Grasp dumbbells below to each side.",
+        "execution": "Raise upper arms to sides until elbows are shoulder height. Maintain upper arms perpendicular to torso and fixed elbow position (10° to 30° angle) throughout exercise. Maintain height of elbows above wrists by raising \"pinkie\" side up. Lower and repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/DeltoidPosterior/DBOneArmLyingLateralRaise.gif",
+      "muscles": {
+        "target": "Deltoid, Posterior"
+      },
+      "name": "Dumbbell Lying One Arm Rear Lateral Raise",
+      "classification": {
+        "mechanics": "Isolated",
+        "force": "Pull",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "With dumbbell in one hand, lie chest down on elevated bench. Position palm forward (thumb up) with elbow straight or slightly bent.",
+        "execution": "Raise upper arm to side until elbow is shoulder height. Maintain upper arms perpendicular to torso with elbow straight throughout exercise. Maintain palm forward position. Lower and repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/DeltoidPosterior/DBRearLateralRaise.gif",
+      "muscles": {
+        "target": "Deltoid, Posterior"
+      },
+      "name": "Dumbbell Rear Lateral Raise",
+      "classification": {
+        "mechanics": "Isolated",
+        "force": "Pull",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Grasp dumbbells to each side. Bend knees and bend over through hips with back flat, close to horizontal. Position elbows with slight bend and palms facing together.",
+        "execution": "Raise upper arms to sides until elbows are shoulder height. Maintain upper arms perpendicular to torso and fixed elbow position (10° to 30° angle) throughout exercise. Maintain height of elbows above wrists by raising \"pinkie finger\" side up. Lower and repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/DeltoidPosterior/DBRearDeltRow.gif",
+      "muscles": {
+        "target": "Deltoid, Posterior"
+      },
+      "name": "Dumbbell Rear Delt Row",
+      "classification": {
+        "mechanics": "Compound",
+        "force": "Pull",
+        "utility": "Basic or Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Kneel over side of bench with arm and leg to side. Grasp dumbbell.",
+        "execution": "Pull dumbbell up out to side with upper arm perpendicular to trunk until upper arm is just beyond horizontal. Lower and repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/DeltoidPosterior/DBSeatedRearLateralRaise.gif",
+      "muscles": {
+        "target": "Deltoid, Posterior"
+      },
+      "name": "Dumbbell Seated Rear Lateral Raise",
+      "classification": {
+        "mechanics": "Isolated",
+        "force": "Pull",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Sit on edge of bench with feet placed beyond knees. Bend over and rest torso on thighs. Grasp dumbbells with each hand under legs. Position elbows with slight bend with palms facing together behind ankles (as shown) or just to sides of ankles.",
+        "execution": "Raise upper arms to sides until elbows are shoulder height. Maintain upper arms perpendicular to torso and fixed elbow position (10° to 30° angle) throughout exercise. Maintain elbows height above wrists by raising \"pinkie finger\" side up. Lower and repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/Supraspinatus/DBFrontLateralRaise.gif",
+      "muscles": {
+        "target": "Supraspinatus"
+      },
+      "name": "Dumbbell Front Lateral Raise",
+      "classification": {
+        "mechanics": "Isolated",
+        "force": "Pull",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Grasp dumbbell and position in front of thigh with arm straight. Turn pinkie finger side outward.",
+        "execution": "Raise arms to side, slightly to front until shoulder height or slightly higher. Lower and repeat. Continue with opposite arm."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/Supraspinatus/DBOneArmSeatedFrontLateralRaise.gif",
+      "muscles": {
+        "target": "Supraspinatus"
+      },
+      "name": "Dumbbell Seated Front Lateral Raise",
+      "classification": {
+        "mechanics": "Isolated",
+        "force": "Pull",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Sit on stool or end of bench with dumbbell. Position dumbbell down to side with arm straight. Turn pinkie finger side outward.",
+        "execution": "Raise arms to side, slightly to front until shoulder height or slightly higher. Lower and repeat. Continue with opposite arm."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/DeltoidLateral/DBLyingLateralRaise.gif",
+      "muscles": {
+        "target": "Deltoid, Lateral"
+      },
+      "name": "Dumbbell Lying Lateral Raise",
+      "classification": {
+        "mechanics": "Isolated",
+        "force": "Pull",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Lie on side with legs separated for support. Grasp dumbbell in front of thigh.",
+        "execution": "Raise dumbbell from floor until arm is vertical. Maintain fixed elbow position (10° to 30° angle) throughout exercise. Lower and repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/DeltoidPosterior/DBOneArmLyingLateralRaise.gif",
+      "muscles": {
+        "target": "Deltoid, Posterior"
+      },
+      "name": "Dumbbell Lying One Arm Rear Lateral Raise",
+      "classification": {
+        "mechanics": "Isolated",
+        "force": "Pull",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "With dumbbell in one hand, lie chest down on elevated bench. Position palm forward (thumb up) with elbow straight or slightly bent.",
+        "execution": "Raise upper arm to side until elbow is shoulder height. Maintain upper arms perpendicular to torso with elbow straight throughout exercise. Maintain palm forward position. Lower and repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/Triceps/BBCloseGripBenchPress.gif",
+      "muscles": {
+        "target": "Triceps Brachii"
+      },
+      "name": "Barbell Close Grip Bench Press",
+      "classification": {
+        "mechanics": "Compound",
+        "force": "Push",
+        "utility": "Basic"
+      },
+      "instructions": {
+        "preparation": "Lie on bench and grasp barbell from rack with shoulder width grip.",
+        "execution": "Lower weight to chest with elbows close to body. Push barbell back up until arms are straight. Repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/Triceps/BBCloseGripInclineBenchPress.gif",
+      "muscles": {
+        "target": "Triceps Brachii"
+      },
+      "name": "Barbell Close Grip Incline Bench Press",
+      "classification": {
+        "mechanics": "Compound",
+        "force": "Push",
+        "utility": "Basic or Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Lie on bench with bar above chest. Grasp bar from rack with shoulder width or slightly narrower grip. Disengage bar by rotating bar back.",
+        "execution": "Lower weight to chest with elbows close to body. Push barbell up until arms are straight. Repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/Triceps/BBLyingTricepsExtension.gif",
+      "muscles": {
+        "target": "Triceps Brachii"
+      },
+      "name": "Barbell Lying Triceps Extension",
+      "classification": {
+        "mechanics": "Isolated",
+        "force": "Push",
+        "utility": "Basic"
+      },
+      "instructions": {
+        "preparation": "Lie on bench with narrow overhand grip on barbell. Position barbell over forehead with arms extended.",
+        "execution": "Lower bar by bending elbows. As bar nears head, move elbows slightly back just enough to allow bar to clear around curvature of head. Extend arms. As bar clears head, reposition elbows to their former position until arms are fully extended. Repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/Triceps/BBDeclineTricepsExt.gif",
+      "muscles": {
+        "target": "Triceps Brachii"
+      },
+      "name": "Barbell Decline Triceps Extension",
+      "classification": {
+        "mechanics": "Isolated",
+        "force": "Push",
+        "utility": "Basic"
+      },
+      "instructions": {
+        "preparation": "Lie on decline bench with narrow overhand grip on barbell. Position barbell over shoulders with arms extended.",
+        "execution": "Lower bar by bending elbows. As bar nears head, move elbows slightly back just enough to allow bar to clear around curvature of head. Extend arms. As bar clears head, reposition elbows to its former position until arms are fully extended. Repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/Triceps/BBInclineTricepsExtension.gif",
+      "muscles": {
+        "target": "Triceps Brachii"
+      },
+      "name": "Barbell Incline Triceps Extension",
+      "classification": {
+        "mechanics": "Isolated",
+        "force": "Push",
+        "utility": "Basic"
+      },
+      "instructions": {
+        "preparation": "Lie on slightly incline bench with narrow overhand grip on barbell. Position barbell over shoulders with arms extended.",
+        "execution": "Lower bar by bending elbows. As bar nears head, move elbows slightly back just enough to allow bar to clear around curvature of head. Extend arms. As bar clears head, reposition elbows to their former position until arms are fully extended. Repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/Triceps/BBLyingTricepsExtensionSC.gif",
+      "muscles": {
+        "target": "Triceps Brachii"
+      },
+      "name": "Barbell Lying Triceps Extension \"Skull Crusher\"",
+      "classification": {
+        "mechanics": "Isolated",
+        "force": "Push",
+        "utility": "Basic"
+      },
+      "instructions": {
+        "preparation": "Lie on bench with narrow overhand grip on barbell. Position barbell over shoulders with arms extended.",
+        "execution": "Lower bar to forehead by bending elbows. Extend arms and repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/Triceps/BBSeatedTricepsExtension.gif",
+      "muscles": {
+        "target": "Triceps Brachii"
+      },
+      "name": "Barbell Triceps Extension",
+      "classification": {
+        "mechanics": "Isolated",
+        "force": "Push",
+        "utility": "Basic or Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Position barbell overhead with narrow overhand grip.",
+        "execution": "Lower forearm behind upper arm with elbows remaining overhead. Extend forearm overhead. Lower and repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/Biceps/BBCurl.gif",
+      "muscles": {
+        "target": "Biceps Brachii"
+      },
+      "name": "Barbell Curl",
+      "classification": {
+        "mechanics": "Isolated",
+        "force": "Pull",
+        "utility": "Basic"
+      },
+      "instructions": {
+        "preparation": "Grasp bar with shoulder width underhand grip.",
+        "execution": "With elbows to side, raise bar until forearms are vertical. Lower until arms are fully extended. Repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/Biceps/BBDragCurl.gif",
+      "muscles": {
+        "target": "Biceps Brachii"
+      },
+      "name": "Barbell Drag Curl",
+      "classification": {
+        "mechanics": "Isolated",
+        "force": "Pull",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Grasp bar with shoulder width underhand grip.",
+        "execution": "Raise barbell straight up so elbows travel back as elbows flex. Follow contour of hips and waist. As elbows continues to flex, begin bringing elbows forward when forearms rises past horizontal position. Continue upward over chest until forearms are perpendicular. Lower until arms are fully extended. Repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/Brachialis/BBPreacherCurl.gif",
+      "muscles": {
+        "target": "Brachialis"
+      },
+      "name": "Barbell Preacher Curl",
+      "classification": {
+        "mechanics": "Isolated",
+        "force": "Pull",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Sit on preacher bench placing back of arms on pad. Grasp curl bar with shoulder width underhand grip.",
+        "execution": "Raise bar until forearms are vertical. Lower barbell until arms are fully extended. Repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/Brachialis/BBStandingPreacherCurl.gif",
+      "muscles": {
+        "target": "Brachialis"
+      },
+      "name": "Barbell Standing Preacher Curl",
+      "classification": {
+        "mechanics": "Isolated",
+        "force": "Pull",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Placing back of arms on pad with one foot forward, grasp curl bar with shoulder width underhand grip.",
+        "execution": "Raise bar until forearms are vertical. Lower barbell until arms are fully extended. Repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/Brachialis/BBProneInclineCurl.gif",
+      "muscles": {
+        "target": "Brachialis"
+      },
+      "name": "Barbell Prone Incline Curl",
+      "classification": {
+        "mechanics": "Isolated",
+        "force": "Pull",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Lie prone on incline bench with shoulders near top of incline. Knees can rest on seat or legs can be straddled to sides. From low rack or partner, grasp curl bar with shoulder width underhand grip.",
+        "execution": "Raise bar until arms are flexed. Lower barbell until arms are fully extended. Repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/Triceps/DBKickback.gif",
+      "muscles": {
+        "target": "Triceps Brachii"
+      },
+      "name": "Dumbbell Kickback",
+      "classification": {
+        "mechanics": "Isolated",
+        "force": "Push",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Kneel over bench with arm supporting body. Grasp dumbbell. Position upper arm parallel to floor.",
+        "execution": "Extend arm until it is straight. Return and repeat. Continue with opposite arm."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/Triceps/DBLyingTricepsExtension.gif",
+      "muscles": {
+        "target": "Triceps Brachii"
+      },
+      "name": "Dumbbell Lying Triceps Extension",
+      "classification": {
+        "mechanics": "Isolated",
+        "force": "Push",
+        "utility": "Basic or Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Lie on bench and position dumbbells over head with arms extended.",
+        "execution": "Lower dumbbells by bending elbow until they are to sides of head. Extend arm. Repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/Triceps/DBDeclineTricepsExtension.gif",
+      "muscles": {
+        "target": "Triceps Brachii"
+      },
+      "name": "Dumbbell Decline Triceps Extension",
+      "classification": {
+        "mechanics": "Isolated",
+        "force": "Push",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Lie on decline bench and position dumbbells over shoulders with arms extended.",
+        "execution": "Lower dumbbells by bending elbow until they are to sides of head; dumbbells touch shoulder. Extend arm. Repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/Triceps/DBInclineTricepsExtension.gif",
+      "muscles": {
+        "target": "Triceps Brachii"
+      },
+      "name": "Dumbbell Incline Triceps Extension",
+      "classification": {
+        "mechanics": "Isolated",
+        "force": "Push",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Lie supine on incline bench with back of head on upper corner of bench. Position dumbbells over head with arms extended.",
+        "execution": "Lower dumbbells by bending elbow until they are to sides of head. Extend arm and repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/Triceps/DBSeatedTricepsExtBackSupport.gif",
+      "muscles": {
+        "target": "Triceps Brachii"
+      },
+      "name": "Dumbbell One Arm Triceps Extension",
+      "classification": {
+        "mechanics": "Isolated",
+        "force": "Push",
+        "utility": "Basic or Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Sit on seat with back support just below shoulder height. Position dumbbell over head with arm straight up or slightly back.",
+        "execution": "Lower dumbbell behind neck or shoulder while maintaining upper arm's vertical position throughout exercise. Extend arm until straight. Return and repeat. Continue with opposite arm."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/Triceps/DBOneArmTricepsExtension.gif",
+      "muscles": {
+        "target": "Triceps Brachii"
+      },
+      "name": "Dumbbell One Arm Triceps Extension (on bench)",
+      "classification": {
+        "mechanics": "Isolated",
+        "force": "Push",
+        "utility": "Basic or Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Position dumbbell behind neck with elbow positioned upward.",
+        "execution": "Extend arm until straight while maintaining upper arm's vertical position throughout exercise. Return until dumbbell is behind neck or shoulder and repeat. Continue with opposite arm."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/Triceps/DBTricepsExtension.gif",
+      "muscles": {
+        "target": "Triceps Brachii"
+      },
+      "name": "Dumbbell Triceps Extension",
+      "classification": {
+        "mechanics": "Isolated",
+        "force": "Push",
+        "utility": "Basic or Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Position one dumbbell over head with both hands under inner plate (heart shaped grip).",
+        "execution": "With elbows over head, lower forearm behind upper arm by flexing elbows. Flex wrists at bottom to avoid hitting dumbbell on back of neck. Raise dumbbell over head by extending elbows while hyperextending wrists. Return and repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/Biceps/DBCurl.gif",
+      "muscles": {
+        "target": "Biceps Brachii"
+      },
+      "name": "Dumbbell Curl",
+      "classification": {
+        "mechanics": "Isolated",
+        "force": "Pull",
+        "utility": "Basic"
+      },
+      "instructions": {
+        "preparation": "Position two dumbbells to sides, palms facing in, arms straight.",
+        "execution": "With elbows to sides, raise one dumbbell and rotate forearm until forearm is vertical and palm faces shoulder. Lower to original position and repeat with opposite arm. Continue to alternate between sides."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/Biceps/DBInclineCurl.gif",
+      "muscles": {
+        "target": "Biceps Brachii"
+      },
+      "name": "Dumbbell Incline Curl",
+      "classification": {
+        "mechanics": "Isolated",
+        "force": "Pull",
+        "utility": "Basic or Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Sit back on 45-60 degree incline bench. With arms hanging down straight, position two dumbbells with palms facing inward.",
+        "execution": "With elbows back to sides, raise one dumbbell and rotate forearm until forearm is vertical and palm faces shoulder. Lower to original position and repeat with opposite arm. Continue to alternate between sides."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/Brachialis/DBConcentrationCurl.gif",
+      "muscles": {
+        "target": "Brachialis"
+      },
+      "name": "Dumbbell Concentration Curl",
+      "classification": {
+        "mechanics": "Isolated",
+        "force": "Pull",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Sit on bench. Grasp dumbbell between feet. Place back of upper arm to inner thigh. Lean into leg to raise elbow slightly.",
+        "execution": "Raise dumbbell to front of shoulder. Lower dumbbell until arm is fully extended. Repeat. Continue with opposite arm."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/Brachialis/DBPreacherCurl.gif",
+      "muscles": {
+        "target": "Brachialis"
+      },
+      "name": "Dumbbell Preacher Curl",
+      "classification": {
+        "mechanics": "Isolated",
+        "force": "Pull",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Grasp dumbbell and sit on preacher bench. With arm bent and palm facing shoulder, place back of arm down on pad.",
+        "execution": "Lower dumbbell until arm is fully extended. Raise dumbbell until forearm is vertical. Repeat. Continue with opposite arm."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/Brachialis/DBStandingOneArmPreacherCurl.gif",
+      "muscles": {
+        "target": "Brachialis"
+      },
+      "name": "Dumbbell Standing Preacher Curl",
+      "classification": {
+        "mechanics": "Isolated",
+        "force": "Pull",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "With dummbell in hand, arm bent, and palm facing shoulder, place back of arm on pad.",
+        "execution": "Lower dumbbell until arm is fully extended. Raise dumbbell until forearm is vertical. Repeat. Continue with opposite arm."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/Brachialis/DBProneInclineCurl.gif",
+      "muscles": {
+        "target": "Brachialis"
+      },
+      "name": "Dumbbell Prone Incline Curl",
+      "classification": {
+        "mechanics": "Isolated",
+        "force": "Pull",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Lie prone on incline bench with shoulders near top of incline. Knees can rest on seat or legs can be straddled to sides. From elevated platform or partner, grasp dumbbell and position palms forward.",
+        "execution": "Raise dumbbells until arms are flexed. Lower dumbbells until arms are fully extended. Repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/Brachioradialis/BBReverseCurl.gif",
+      "muscles": {
+        "target": "Brachioradialis"
+      },
+      "name": "Barbell Reverse Curl",
+      "classification": {
+        "mechanics": "Isolated",
+        "force": "Pull",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Grasp bar with shoulder width overhand grip.",
+        "execution": "With elbows to side, raise bar until forearms are vertical. Lower until arms are fully extended. Repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/Brachioradialis/BBReversePreacherCurl.gif",
+      "muscles": {
+        "target": "Brachioradialis"
+      },
+      "name": "Barbell Reverse Preacher Curl",
+      "classification": {
+        "mechanics": "Isolated",
+        "force": "Pull",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Sit on preacher bench placing back of arms on pad. Grasp curl bar with shoulder width overhand grip.",
+        "execution": "Raise bar until forearms are vertical. Lower barbell until arm is fully extended. Repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/Brachioradialis/BBStandingReversePreacherCurl.gif",
+      "muscles": {
+        "target": "Brachioradialis"
+      },
+      "name": "Barbell Standing Reverse Preacher Curl",
+      "classification": {
+        "mechanics": "Isolated",
+        "force": "Pull",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Place back of arms on pad with one foot forward. Grasp curl bar with shoulder width underhand grip.",
+        "execution": "Raise bar until forearms are vertical. Lower barbell until arm is fully extended. Repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/WristFlexors/BBWristCurl.gif",
+      "muscles": {
+        "target": "Wrist Flexors"
+      },
+      "name": "Barbell Wrist Curl",
+      "classification": {
+        "mechanics": "Isolated",
+        "force": "Pull",
+        "utility": "Basic or Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Sit and grasp bar with narrow to shoulder width underhand grip. Rest forearms on thighs with wrists just beyond knees.",
+        "execution": "Allow barbell to roll out of palms down to fingers. Raise barbell back up by gripping and pointing knuckles up as high as possible. Lower and repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/WristExtensors/BBReverseWristCurl.gif",
+      "muscles": {
+        "target": "Wrist Extensors"
+      },
+      "name": "Barbell Reverse Wrist Curl",
+      "classification": {
+        "mechanics": "Isolated",
+        "force": "Pull",
+        "utility": "Basic or Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Sit and grasp bar with narrow to shoulder width overhand grip. Rest forearms on thighs with wrists just beyond knees.",
+        "execution": "Raise barbell by pointing knuckles upward as high as possible. Return until knuckles are pointing downward as far as possible. Repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/Brachioradialis/DBHammerCurl.gif",
+      "muscles": {
+        "target": "Brachioradialis"
+      },
+      "name": "Dumbbell Hammer Curl",
+      "classification": {
+        "mechanics": "Isolated",
+        "force": "Pull",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Position two dumbbells to sides, palms facing in, arms straight.",
+        "execution": "With elbows to sides, raise one dumbbell until forearm is vertical and thumb faces shoulder. Lower to original position and repeat with alternative arm."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/WristFlexors/DBWristCurl.gif",
+      "muscles": {
+        "target": "Wrist Flexors"
+      },
+      "name": "Dumbbell Wrist Curl",
+      "classification": {
+        "mechanics": "Isolated",
+        "force": "Pull",
+        "utility": "Basic or Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Sit and grasp dumbbell with underhand grip. Rest forearm on thigh with wrist just beyond knee.",
+        "execution": "Allow dumbbell to roll out of palm down to fingers. Raise dumbbell back up by gripping and pointing knuckles up as high as possible. Lower and repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/WristFlexors/DBUlnarFlexion.gif",
+      "muscles": {
+        "target": "Flexor Carpi Ulnaris Extensor Carpi UlnarisExtensor Carpi Ulnaris"
+      },
+      "name": "Dumbbell Ulnar Deviation",
+      "classification": {
+        "mechanics": "Isolated",
+        "force": "Pull",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Grasp half loaded dumbbell with plate on pinkie side. Position arm down to side.",
+        "execution": "Bend wrist so weighted side is pulled upward. Lower until weighted side is pointing downward. Repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/WristExtensors/DBRadialDeviation.gif",
+      "muscles": {
+        "target": "Extensor Carpi Radialis Flexor Carpi RadialisFlexor Carpi Radialis"
+      },
+      "name": "Dumbbell Radial Deviation",
+      "classification": {
+        "mechanics": "Isolated",
+        "force": "Pull",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Grasp half loaded dumbbell with plate on thumb side. Position arm down to side.",
+        "execution": "Bend wrist so weighted side is pulled upward. Lower until weighted side is pointing downward. Repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/WristExtensors/DBReverseWristCurl.gif",
+      "muscles": {
+        "target": "Wrist Extensors"
+      },
+      "name": "Dumbbell Reverse Wrist Curl",
+      "classification": {
+        "mechanics": "Isolated",
+        "force": "Pull",
+        "utility": "Basic or Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Sit and grip dumbbell with overhand grip. Rest forearm on thigh with wrist just beyond knee.",
+        "execution": "Raise dummbell by pointing knuckles upward as high as possible. Return until knuckles are pointing downward as far as possible. Repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/Pronators/DBPronationUp.gif",
+      "muscles": {
+        "target": "Pronators"
+      },
+      "name": "Dumbbell Lying Pronation (arm up)",
+      "classification": {
+        "mechanics": "Isolated",
+        "force": "Push",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Lie on bench or mat. With hand of upper arm, grasp unilaterally loaded dumbbell; pinkie positioned near weighted side. Bend elbow approximately 90-degrees and place arm on hip or side of waist. Position thumb upward (supinated).",
+        "execution": "Rotate dumbbell so thumb turns downward (pronation). Return and repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/Pronators/DBPronationDown.gif",
+      "muscles": {
+        "target": "Pronators"
+      },
+      "name": "Dumbbell Lying Pronation (arm down)",
+      "classification": {
+        "mechanics": "Isolated",
+        "force": "Push",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Grasp unilaterally loaded dumbbell with thumb next to weighted side. Lie on bench on side with weight and position arm with \"half dumbbell\" on bench. Bend elbow approximately 90-degrees and tucked bent elbow under body. Position thumb down (supinated).",
+        "execution": "Rotate dumbbell so thumb turns upward (pronation). Return and repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/Pronators/DBSeatedPronation.gif",
+      "muscles": {
+        "target": "Pronators"
+      },
+      "name": "Dumbbell Seated Pronation",
+      "classification": {
+        "mechanics": "Isolated",
+        "force": "Push",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Sit next to elevated surface, approximately arm pit height. With hand of upper arm, grasp unilaterally loaded dumbbell; pinkie positioned near weighted side. Bend elbow approximately 90-degrees and place upperarm on elevated surface. Position thumb upward (supinated).",
+        "execution": "Rotate dumbbell so thumb turns downward (pronation). Return and repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/Supinators/DBSupinationUp.gif",
+      "muscles": {
+        "target": "Supinator"
+      },
+      "name": "Dumbbell Lying Supination",
+      "classification": {
+        "mechanics": "Isolated",
+        "force": "Pull",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Lie on bench or mat. With hand of upper arm, grasp unilaterally loaded dumbbell; thumb next to side with weight. Bend elbow approximately 90-degrees and place forearm on hip, or side of waist. Position thumb downward (pronated).",
+        "execution": "Rotate dumbbell so thumb turns upward (supination). Return and repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/Supinators/DBSupinateDown.gif",
+      "muscles": {
+        "target": "Supinator"
+      },
+      "name": "Dumbbell Lying Supination (arm down)",
+      "classification": {
+        "mechanics": "Isolated",
+        "force": "Pull",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Grasp unilaterally loaded dumbbell with pinkie finger next to weight side. Lie on bench on side with weight and position arm with \"half dumbbell\" on bench. Bend elbow approximately 90-degrees and tuck bent elbow under body. Position thumb up (pronated).",
+        "execution": "Rotate dumbbell so thumb turns downward (supinated). Return and repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/Supinators/DBSeatedSupination.gif",
+      "muscles": {
+        "target": "Supinator"
+      },
+      "name": "Dumbbell Seated Supination",
+      "classification": {
+        "mechanics": "Isolated",
+        "force": "Pull",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Sit next to elevated surface, approximately arm pit height. With hand of arm next to elevated surface, grasp unilaterally loaded dumbbell; thumb next to side with weight. Bend elbow approximately 90-degrees and place upperarm on elevated surface. Position thumb downward (pronated).",
+        "execution": "Rotate dumbbell so thumb turns upward (supination). Return and repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/Biceps/DBCurl.gif",
+      "muscles": {
+        "target": "Biceps Brachii"
+      },
+      "name": "Dumbbell Curl",
+      "classification": {
+        "mechanics": "Isolated",
+        "force": "Pull",
+        "utility": "Basic"
+      },
+      "instructions": {
+        "preparation": "Position two dumbbells to sides, palms facing in, arms straight.",
+        "execution": "With elbows to sides, raise one dumbbell and rotate forearm until forearm is vertical and palm faces shoulder. Lower to original position and repeat with opposite arm. Continue to alternate between sides."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/Biceps/DBInclineCurl.gif",
+      "muscles": {
+        "target": "Biceps Brachii"
+      },
+      "name": "Dumbbell Incline Curl",
+      "classification": {
+        "mechanics": "Isolated",
+        "force": "Pull",
+        "utility": "Basic or Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Sit back on 45-60 degree incline bench. With arms hanging down straight, position two dumbbells with palms facing inward.",
+        "execution": "With elbows back to sides, raise one dumbbell and rotate forearm until forearm is vertical and palm faces shoulder. Lower to original position and repeat with opposite arm. Continue to alternate between sides."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/BackGeneral/BBBentOverRow.gif",
+      "muscles": {
+        "target": "Back, General"
+      },
+      "name": "Barbell Bent-over Row",
+      "classification": {
+        "mechanics": "Compound",
+        "force": "Pull",
+        "utility": "Basic"
+      },
+      "instructions": {
+        "preparation": "Bend knees slightly and bend over bar with back straight. Grasp bar with wide overhand grip.",
+        "execution": "Pull bar to upper waist. Return until arms are extended and shoulders are stretched downward. Repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/BackGeneral/BBBentOverRowClose.gif",
+      "muscles": {
+        "target": "Back, General"
+      },
+      "name": "Barbell Close Grip Bent-over Row",
+      "classification": {
+        "mechanics": "Compound",
+        "force": "Pull",
+        "utility": "Basic or Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Bend knees slightly and bend over bar with back straight. Grasp bar with shoulder width overhand grip.",
+        "execution": "Pull bar to waist. Return until arms are extended and shoulders are stretched forward. Repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/BackGeneral/BBUnderhandBentOverRow.gif",
+      "muscles": {
+        "target": "Back, General"
+      },
+      "name": "Barbell Underhand Bent-over Row",
+      "classification": {
+        "mechanics": "Compound",
+        "force": "Pull",
+        "utility": "Basic or Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Bend knees slightly and bend over bar with back straight. Grasp bar with underhand grip.",
+        "execution": "Pull bar to waist. Return until arms are extended and shoulders are stretched downward. Repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/LatissimusDorsi/BBPullover.gif",
+      "muscles": {
+        "target": "Latissimus Dorsi"
+      },
+      "name": "Barbell Pullover",
+      "classification": {
+        "mechanics": "Isolated",
+        "force": "Pull",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Lie upper back perpendicular on bench. Flex hips slightly. Grasp barbell from behind and position over chest with elbows bent slightly.",
+        "execution": "With elbows bent slightly, lower bar over and beyond head until shoulders are fully flexed or upper arms are approximately parallel to torso. Return and repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/LatissimusDorsi/BBBentArmPullover.gif",
+      "muscles": {
+        "target": "Latissimus Dorsi"
+      },
+      "name": "Barbell Bent Arm Pullover",
+      "classification": {
+        "mechanics": "Isolated",
+        "force": "Pull",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Lie upper back perpendicular on bench. Flex hips slightly. Grasp barbell from behind and position over chest with elbows bent approximately 90°.",
+        "execution": "With elbow bent, lower bar over and just behind head until upper arm is approximately parallel to torso. Return and repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/TrapeziusUpper/BBShrug.gif",
+      "muscles": {
+        "target": "Trapezius, Upper"
+      },
+      "name": "Barbell Shrug",
+      "classification": {
+        "mechanics": "Isolated",
+        "force": "Pull",
+        "utility": "Basic"
+      },
+      "instructions": {
+        "preparation": "Stand holding barbell with overhand or mixed grip; shoulder width or slightly wider.",
+        "execution": "Elevate shoulders as high as possible. Lower and repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/BackGeneral/DBBentoverRow.gif",
+      "muscles": {
+        "target": "Back, General"
+      },
+      "name": "Dumbbell Bent-over Row",
+      "classification": {
+        "mechanics": "Compound",
+        "force": "Pull",
+        "utility": "Basic"
+      },
+      "instructions": {
+        "preparation": "Kneel over side of bench by placing knee and hand of supporting arm on bench. Position foot of opposite leg slightly back to side. Grasp dumbbell from floor.",
+        "execution": "Pull dumbbell to up to side until it makes contact with ribs or until upper arm is just beyond horizontal. Return until arm is extended and shoulder is stretched downward. Repeat and continue with opposite arm."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/BackGeneral/DBLyingRow.gif",
+      "muscles": {
+        "target": "Back, General"
+      },
+      "name": "Dumbbell Lying Row",
+      "classification": {
+        "mechanics": "Compound",
+        "force": "Pull",
+        "utility": "Basic"
+      },
+      "instructions": {
+        "preparation": "Lie chest down on elevated bench. Grasp dumbbells below.",
+        "execution": "Pull dumbbells to sides until upper arm is just beyond horizontal or height of back. Return until arms are extended and shoulders are stretched downward. Repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/TrapeziusUpper/DBShrug.gif",
+      "muscles": {
+        "target": "Trapezius, Upper"
+      },
+      "name": "Dumbbell Shrug",
+      "classification": {
+        "mechanics": "Isolated",
+        "force": "Pull",
+        "utility": "Basic"
+      },
+      "instructions": {
+        "preparation": "Stand holding dumbbells to sides.",
+        "execution": "Elevate shoulders as high as possible. Lower and repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/Infraspinatus/DBLyingExternalRotation.gif",
+      "muscles": {
+        "target": "Infraspinatus"
+      },
+      "name": "Dumbbell Lying Shoulder External Rotation",
+      "classification": {
+        "mechanics": "Isolated",
+        "force": "Pull",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Lie on side with legs separated for support. Grasp dumbbell and position elbow against side and forearm across belly.",
+        "execution": "Lift dumbbell by rotating shoulder. Return and repeat. Flip over and continue with opposite arm."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/Infraspinatus/DBExternalRotationDecline.gif",
+      "muscles": {
+        "target": "Infraspinatus"
+      },
+      "name": "Dumbbell Incline Shoulder External Rotation",
+      "classification": {
+        "mechanics": "Isolated",
+        "force": "Pull",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Lie high up on low incline bench or reverse on decline bench on side with arm pit over leg pad (as demonstrated). Position legs lower on bench for support. Grasp dumbbell and position elbow against side and forearm across belly.",
+        "execution": "Lift dumbbell upright above elbow by rotating shoulder. Return and repeat. Flip body over and continue with opposite arm."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/Infraspinatus/DBSeatedShoulderExternalRotation.gif",
+      "muscles": {
+        "target": "Teres Minor"
+      },
+      "name": "Dumbbell Seated Shoulder External Rotation",
+      "classification": {
+        "mechanics": "Isolated",
+        "force": "Pull",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Sit on bench. Place foot on other side of bench and other foot on floor with knees bent. Place upper elbow on knee with dumbbell positioned above knee.",
+        "execution": "Lower dumbbell downward toward lower leg by rotating shoulder until slight stretch is felt. Return and repeat. Continue with opposite arm."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/Infraspinatus/DBUprightShoulderExtRotation.gif",
+      "muscles": {
+        "target": "Teres Minor"
+      },
+      "name": "Dumbbell Upright Shoulder External Rotation",
+      "classification": {
+        "mechanics": "Isolated",
+        "force": "Pull",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Stand or sit with dumbbell positioned out to side of head; bend elbow, shoulder height with dumbbell above elbow.",
+        "execution": "Lower dumbbell forward by rotating shoulder. Return and repeat. Continue with opposite arm."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/Infraspinatus/DBStandingExternalRotationSupport.gif",
+      "muscles": {
+        "target": "Teres Minor"
+      },
+      "name": "Dumbbell Upright Shoulder External Rotation (with support)",
+      "classification": {
+        "mechanics": "Isolated",
+        "force": "Pull",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Stand or sit with side against chest height platform. With dumbbell in hand, position upper arm horizontally on platform, elbow bent so forearm is upright.",
+        "execution": "Lower dumbbell forward by rotating shoulder. Return and repeat. Continue with opposite arm."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/Subscapularis/DBInternalRotation.gif",
+      "muscles": {
+        "target": "Subscapularis"
+      },
+      "name": "Dumbbell Shoulder Internal Rotation (on bench)",
+      "classification": {
+        "mechanics": "Isolated",
+        "force": "Pull",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Hold dumbbell in one hand. Lie on bench close to edge on side with dumbbell in hand. Position elbow on edge of bench against side of body with elbow bent approximately 90°. Position legs on bench for support.",
+        "execution": "Maintaining 90° bend in elbow, lower dumbbell away from body until slight stretch is felt in shoulder. Lift dumbbell toward body by internally rotating shoulder until forearm is across belly. Continue with opposite arm."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/Subscapularis/DBInternalRotationFloor.gif",
+      "muscles": {
+        "target": "Subscapularis"
+      },
+      "name": "Dumbbell Shoulder Internal Rotation (on floor)",
+      "classification": {
+        "mechanics": "Isolated",
+        "force": "Pull",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Hold dumbbell in one hand. Lie on mat with dumbbell in hand. Position upper arm on mat close to body. Bend elbow approximately 90° with dumbbell held upright above elbow.",
+        "execution": "Maintaining 90° bend in elbow, lower dumbbell toward floor until slight stretch is felt in shoulder. Lift dumbbell toward body by internally rotating shoulder until forearm is vertical and repeat. Continue with opposite arm."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/PectoralSternal/BBBenchPress.gif",
+      "muscles": {
+        "target": "Pectoralis Major, Sternal"
+      },
+      "name": "Barbell Bench Press",
+      "classification": {
+        "mechanics": "Compound",
+        "force": "Push",
+        "utility": "Basic"
+      },
+      "instructions": {
+        "preparation": "Lie supine on bench. Dismount barbell from rack over upper chest using wide oblique overhand grip.",
+        "execution": "Lower weight to mid-chest. Press bar upward until arms are extended. Repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/PectoralSternal/BBBenchPressPowerlift.gif",
+      "muscles": {
+        "target": "Pectoralis Major, Sternal"
+      },
+      "name": "Barbell Bench Press (power lift)",
+      "classification": {
+        "mechanics": "Compound",
+        "force": "Push",
+        "utility": "Basic"
+      },
+      "instructions": {
+        "preparation": "Lie supine on bench. Grasp bar with overhand and slightly wider than shoulder width grip. Arch back, extend hips, and position feet back flat on floor. Dismount barbell from rack over chest.",
+        "execution": "Lower weight to lower chest. Press bar upward until arms are extended. Repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/PectoralSternal/BBBenchPressGuillotine.gif",
+      "muscles": {
+        "target": "Pectoralis Major, Sternal"
+      },
+      "name": "Barbell Guillotine Bench Press",
+      "classification": {
+        "mechanics": "Compound",
+        "force": "Push",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Lie supine on bench. Dismount barbell from rack over upper chest using wide oblique overhand grip.",
+        "execution": "Lower weight to neck. Upper arms will be perpendicular to torso. Press bar until arms are extended. Repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/PectoralSternal/BBBenchPressChain.gif",
+      "muscles": {
+        "target": "Pectoralis Major, Sternal"
+      },
+      "name": "Barbell Bench Press (with chains)",
+      "classification": {
+        "mechanics": "Compound",
+        "force": "Push",
+        "utility": "Basic or Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Lie supine on bench. Grasp barbell loaded with thick chains from each side, with overhand and slightly wider than shoulder width grip. Dismount barbell from rack over chest.",
+        "execution": "Lower weight to chest. Press bar upward until arms are extended. Repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/PectoralSternal/BBDeclineBenchPress.gif",
+      "muscles": {
+        "target": "Pectoralis Major, Sternal"
+      },
+      "name": "Barbell Decline Bench Press",
+      "classification": {
+        "mechanics": "Compound",
+        "force": "Push",
+        "utility": "Basic or Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Lie supine on decline bench with feet under leg brace. Dismount barbell from rack over chest using wide oblique overhand grip.",
+        "execution": "Lower weight to upper chest. Press bar until arms are extended. Repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/PectoralClavicular/BBInclineBenchPress.gif",
+      "muscles": {
+        "target": "Pectoralis Major, Clavicular"
+      },
+      "name": "Barbell Incline Bench Press",
+      "classification": {
+        "mechanics": "Compound",
+        "force": "Push",
+        "utility": "Basic or Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Lie supine on incline bench. Dismount barbell from rack over upper chest using wide oblique overhand grip.",
+        "execution": "Lower weight to upper chest. Press bar until arms are extended. Repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/SerratusAnterior/BBInclineShoulderRaise.gif",
+      "muscles": {
+        "target": "Serratus Anterior"
+      },
+      "name": "Barbell Incline Shoulder Raise",
+      "classification": {
+        "mechanics": "Isolated",
+        "force": "Push",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Lie supine on incline bench. Dismount barbell from rack with shoulder width overhand grip. Position barbell over upper chest with elbows extended.",
+        "execution": "Raise shoulders toward bar as high as possible. Lower shoulders to bench and repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/PectoralSternal/DBBenchPress.gif",
+      "muscles": {
+        "target": "Pectoralis Major, Sternal"
+      },
+      "name": "Dumbbell Bench Press",
+      "classification": {
+        "mechanics": "Compound",
+        "force": "Push",
+        "utility": "Basic"
+      },
+      "instructions": {
+        "preparation": "Sit down on bench with dumbbells resting on lower thigh. Kick weights to shoulder and lie back. Position dumbbells to sides of chest with bent arm under each dumbbell.",
+        "execution": "Press dumbbells up with elbows to sides until arms are extended. Lower weight to sides of upper chest until slight stretch is felt in chest or shoulder. Repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/PectoralSternal/DBDeclineBenchPress.gif",
+      "muscles": {
+        "target": "Pectoralis Major, Sternal"
+      },
+      "name": "Dumbbell Decline Bench Press",
+      "classification": {
+        "mechanics": "Compound",
+        "force": "Push",
+        "utility": "Basic or Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Sit down on decline bench with feet under leg brace and dumbbells resting on thigh. Lie back with dumbbells. Position dumbbells to sides of chest with bent arm under each dumbbell.",
+        "execution": "Press dumbbells up with elbows to sides until arms are extended. Lower weight to sides of chest until slight stretch is felt in chest or shoulder. Repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/PectoralSternal/DBDeclineFly.gif",
+      "muscles": {
+        "target": "Pectoralis Major, Sternal"
+      },
+      "name": "Dumbbell Decline Fly",
+      "classification": {
+        "mechanics": "Isolated",
+        "force": "Push",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Grasp two dumbbells. Lie supine on decline bench. Support dumbbells above upper abdomen with arms fixed in slightly bent position. Internally rotate shoulders so elbows are to sides.",
+        "execution": "Lower dumbbells to sides until chest muscles are stretched with elbows fixed. Bring dumbbells together in hugging motion until dumbbells are nearly together. Repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/PectoralSternal/DBFly.gif",
+      "muscles": {
+        "target": "Pectoralis Major, Sternal"
+      },
+      "name": "Dumbbell Fly",
+      "classification": {
+        "mechanics": "Isolated",
+        "force": "Push",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Grasp two dumbbells. Lie supine on bench. Support dumbbells above chest with arms fixed in slightly bent position. Internally rotate shoulders so elbows point out to sides.",
+        "execution": "Lower dumbbells to sides until chest muscles are stretched with elbows fixed in slightly bent position. Bring dumbbells together in hugging motion until dumbbells are nearly together. Repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/PectoralSternal/DBPullover.gif",
+      "muscles": {
+        "target": "Pectoralis Major, Sternal"
+      },
+      "name": "Dumbbell Pullover",
+      "classification": {
+        "mechanics": "Isolated",
+        "force": "Push",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Lie on upper back perpendicular to bench. Flex hips slightly. Grasp one dumbbell from behind or from side with both hands under inner plate of dumbbell. Position dumbbell over chest with elbows slightly bent.",
+        "execution": "Keeping elbows slightly bent throughout movement, lower dumbbell over and beyond head until upper arms are in-line with torso. Pull dumbbell up and over chest. Repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/PectoralSternal/DBPulloverBench.gif",
+      "muscles": {
+        "target": "Pectoralis Major, Sternal"
+      },
+      "name": "Dumbbell Pullover (on apparatus)",
+      "classification": {
+        "mechanics": "Isolated",
+        "force": "Push",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Sit on lower pad with back against upper pad, facing dumbbell in rack. Position feet under padded bars. Grasp dumbbell by handle with both hands. Pull top of dumbbell to chest. Push dumbbell up over chest with both hands under inner plate of dumbbell. Raise hips up from pad and recline torso back so chest faces upward. Keep hips and elbows slightly bent.",
+        "execution": "Keeping elbows slightly bent throughout movement, lower dumbbell over and beyond head until upper arms are in-line with torso. Pull dumbbell up and over chest. Repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/PectoralSternal/DBPulloverArchedBench.gif",
+      "muscles": {
+        "target": "Pectoralis Major, Sternal"
+      },
+      "name": "Dumbbell Pullover (on arched bench)",
+      "classification": {
+        "mechanics": "Isolated",
+        "force": "Push",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Sit on seat of arched bench with dumbbell on lower thigh. Kick dumbbell up to shoulder while lying back on bench. Grasp both hands under inner plate of dumbbell. Position dumbbell over chest with elbows slightly bent.",
+        "execution": "Keeping elbows slightly bent throughout movement, lower dumbbell over and beyond head until upper arms are in-line with torso. Pull dumbbell up and over chest. Repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/PectoralClavicular/DBInclineBenchPress.gif",
+      "muscles": {
+        "target": "Pectoralis Major, Clavicular"
+      },
+      "name": "Dumbbell Incline Bench Press",
+      "classification": {
+        "mechanics": "Compound",
+        "force": "Push",
+        "utility": "Basic or Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Sit down on incline bench with dumbbells resting on lower thigh. Kick weights to shoulders and lean back. Position dumbbells to sides of chest with upper arm under each dumbbell.",
+        "execution": "Press dumbbells up with elbows to sides until arms are extended. Lower weight to sides of upper chest until slight stretch is felt in chest or shoulder. Repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/PectoralClavicular/DBInclineFly.gif",
+      "muscles": {
+        "target": "Pectoralis Major, Clavicular"
+      },
+      "name": "Dumbbell Incline Fly",
+      "classification": {
+        "mechanics": "Isolated",
+        "force": "Push",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Grasp two dumbbells. Lie supine on bench. Support dumbbells above upper chest with arms fixed in slightly bent position. Bend elbows slightly and internally rotate shoulders so elbows point out to sides.",
+        "execution": "Lower dumbbells outward to sides of shoulders. Keep elbows fixed in slightly bent position. When a stretch is felt in chest or shoulders, bring dumbbells back together in hugging motion above upper chest until dumbbells are nearly together. Repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/SerratusAnterior/DBInclineShoulderRaise.gif",
+      "muscles": {
+        "target": "Serratus Anterior"
+      },
+      "name": "Dumbbell Incline Shoulder Raise",
+      "classification": {
+        "mechanics": "Isolated",
+        "force": "Push",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Sit down on incline bench with dumbbells resting on lower thigh. Kick weights to shoulders and lean back. Position dumbbells above shoulders with elbows extended.",
+        "execution": "Raise shoulders toward dumbbells as high as possible. Lower shoulders to bench and repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/RectusAbdominis/BBPushCrunch.gif",
+      "muscles": {
+        "target": "Rectus Abdominis"
+      },
+      "name": "Barbell Push Crunch",
+      "classification": {
+        "mechanics": "Isolated",
+        "force": "Push",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Position feet under foot pad and lie supine on steep incline bench. Pull barbell from floor or grasp from rack behind with overhand grip. Position barbell over chest with shoulder width or slightly wider grip.",
+        "execution": "Flex waist to raise upper torso from bench, keeping low back on bench. Return until back of shoulders contact padded incline board. Repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/RectusAbdominis/BBInclineSitup.gif",
+      "muscles": {
+        "target": "Rectus Abdominis"
+      },
+      "name": "Barbell Push Sit-up",
+      "classification": {
+        "mechanics": "Compound",
+        "force": "Push",
+        "utility": "Basic"
+      },
+      "instructions": {
+        "preparation": "Position feet under foot pad and lie supine on flat or incline bench. Pull barbell from floor or grasp from rack behind with overhand grip. Position barbell over chest with shoulder width or slightly wider grip.",
+        "execution": "Raise torso from bench as high as possible by bending waist and hips. Keep weight positioned above shoulders. Achieve near upright posture (hip flexibility, incline, and initial hip position permitting). Return to original lying posture with back of shoulders contacting padded incline board. Repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/ErectorSpinae/BBHyperExtention.gif",
+      "muscles": {
+        "target": "Erector Spinae"
+      },
+      "name": "Barbell Hyperextension",
+      "classification": {
+        "mechanics": "Compound",
+        "force": "Pull",
+        "utility": "Basic or Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Position thighs prone on large pad and lower legs under padded brace. Place barbell on back of shoulders and grasp bar to sides.",
+        "execution": "Raise upper body until hips and waist are fully extended. Lower body by bending hips and waist until fully flexed. Repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/ErectorSpinae/BBBackExtention.gif",
+      "muscles": {
+        "target": "Erector Spinae"
+      },
+      "name": "Barbell Back Extension (on hyperextension apparatus)",
+      "classification": {
+        "mechanics": "Isolated",
+        "force": "Pull",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Position thighs prone on large pad and lower legs under padded bar. Place barbell on back of shoulders and grasp bar to sides.",
+        "execution": "Lower body by bending waist until fully flexed. Raise or extend waist until torso is parallel to legs. Repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/ErectorSpinae/BBHyperextension.gif",
+      "muscles": {
+        "target": "Erector Spinae"
+      },
+      "name": "Barbell 45-degree Hyperextension",
+      "classification": {
+        "mechanics": "Compound",
+        "force": "Pull",
+        "utility": "Basic or Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Position thighs prone on padding. Hook heels on platform lip or under padded brace. Place barbell on back of shoulders and grasp bar to sides.",
+        "execution": "Raise upper body until hips and waist are fully extended. Lower body by bending hips and waist until fully flexed. Repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/ErectorSpinae/BBBackExtension.gif",
+      "muscles": {
+        "target": "Erector Spinae"
+      },
+      "name": "Barbell 45-degree Back Extension (on hyperextension apparatus)",
+      "classification": {
+        "mechanics": "Isolated",
+        "force": "Pull",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Position thighs prone on padding. Hook heels on platform lip or under padded brace. Place barbell on back of shoulders and grasp bar to sides.",
+        "execution": "Lower body by bending waist until fully flexed. Raise, or extend waist until torso is parallel to legs. Repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/ErectorSpinae/BBStiffLegDeadlift.gif",
+      "muscles": {
+        "target": "Erector Spinae"
+      },
+      "name": "Barbell Stiff Leg Deadlift",
+      "classification": {
+        "mechanics": "Compound",
+        "force": "Pull",
+        "utility": "Basic or Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Stand with shoulder width or narrower stance on shallow platform with feet flat beneath bar. Bend knees and bend over with lower back straight. Grasp barbell with shoulder width overhand or mixed grip, shoulder width or slightly wider. Lift weight to standing position.",
+        "execution": "Lower bar to top of feet by bending hips. Bend knees slightly during descent and keep waist straight, flexing only slightly at bottom. With knees bent, lift bar by extending at hips until standing upright. Pull shoulders back slightly if rounded. Extend knees at top if desired. Repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/Hamstrings/BBStraightLegDeadlift.gif",
+      "muscles": {
+        "target": "Erector Spinae"
+      },
+      "name": "Barbell Straight Leg Deadlift",
+      "classification": {
+        "mechanics": "Compound",
+        "force": "Pull",
+        "utility": "Basic"
+      },
+      "instructions": {
+        "preparation": "Stand with shoulder width or narrower stance on shallow platform with feet flat beneath bar. Bend knees and bend over with lower back straight. Grasp barbell with shoulder width overhand or mixed grip, shoulder width or slightly wider. Lift weight to standing position.",
+        "execution": "With knees straight, lower bar toward top of feet by bending hips and waist. Lift bar by extending waist and hip until standing upright. Pull shoulders back slightly if rounded. Repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/RectusAbdominis/DBPushCrunch.gif",
+      "muscles": {
+        "target": "Rectus Abdominis"
+      },
+      "name": "Dumbbell Push Crunch",
+      "classification": {
+        "mechanics": "Isolated",
+        "force": "Push",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "With dumbbells in each hand, position feet under foot pad and lie supine on steep incline bench. Position dumbbells straight over shoulders.",
+        "execution": "Flex waist to raise upper torso from bench, keeping low back on bench. Return until back of shoulders contact padded incline bench. Repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/RectusAbdominis/DBInclineSitup.gif",
+      "muscles": {
+        "target": "Rectus Abdominis"
+      },
+      "name": "Dumbbell Push Sit-up",
+      "classification": {
+        "mechanics": "Compound",
+        "force": "Push",
+        "utility": "Basic"
+      },
+      "instructions": {
+        "preparation": "Position feet under foot pad and lie supine on flat or incline bench. Position dumbbells straight over shoulders.",
+        "execution": "Raise torso from bench as high as possible by bending waist and hips. Keep weight positioned above shoulders. Achieve near upright posture (hip flexibility, incline, and initial hip position permitting). Return to original lying posture with back of shoulders, contacting padded incline board. Repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/Obliques/DB45SideBend.gif",
+      "muscles": {
+        "target": "Obliques"
+      },
+      "name": "Dumbbell 45° Side Bend",
+      "classification": {
+        "mechanics": "Isolated",
+        "force": "Pull",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Position side of thigh on padding and side of feet on leg padding or platform lip. Hold dumbbell straight downward with lower arm.",
+        "execution": "Raise torso upward by lateral flexing waist. Lower torso by bending waist downward. Repeat. Position body facing opposite side and continue with opposite side."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/Obliques/DBRussianTwistBall.gif",
+      "muscles": {
+        "target": "Obliques"
+      },
+      "name": "Dumbbell Russian Twist (on stability ball)",
+      "classification": {
+        "mechanics": "Isolated",
+        "force": "Pull",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "With dumbbell in hand, sit on stability ball. Roll body down and lie with back on ball, hips nearly straight, and feet apart on floor. Hold onto dumbbell with both hands with arms extending straight upward.",
+        "execution": "Turn torso to one side while keeping arms straight and perpendicular to torso throughout movement. Return dumbbell back over shoulders by rotating torso to original position. Continue lowering dumbbell to opposite side. Repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/Obliques/DBSideBend.gif",
+      "muscles": {
+        "target": "Obliques"
+      },
+      "name": "Dumbbell Side Bend",
+      "classification": {
+        "mechanics": "Isolated",
+        "force": "Pull",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Grasp dumbbell with arm straight to side.",
+        "execution": "Bend waist to opposite side of dumbbell until slight stretch is felt. Lower to opposite side, same distance and repeat. Continue with opposite side."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/ErectorSpinae/DBOneArmStraightlegDeadlift.gif",
+      "muscles": {
+        "target": "Erector Spinae"
+      },
+      "name": "Dumbbell One Arm Straight Leg Deadlift",
+      "classification": {
+        "mechanics": "Compound",
+        "force": "Pull",
+        "utility": "Basic or Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Stand with shoulder width or wide stance. Grasp dumbbell to side. Place opposite hand to side or behind low back.",
+        "execution": "With knees straight, lower dumbbell between feet by bending hips and twisting waist, so shoulder of weighted side is turned forward. Allow hips to fall back and waist to bend as dumbbell approaches floor. Lift dumbbell upward and back to side by extending hips and waist until standing upright. Pull shoulder back if rounded. Repeat. Perform exercise with opposite arm."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/Hamstrings/DBStraightLegDeadlift.gif",
+      "muscles": {
+        "target": "Erector Spinae"
+      },
+      "name": "Dumbbell Straight Leg Deadlift",
+      "classification": {
+        "mechanics": "Compound",
+        "force": "Pull",
+        "utility": "Basic"
+      },
+      "instructions": {
+        "preparation": "Stand with shoulder width or narrower stance. Grasp dumbbells to sides.",
+        "execution": "With knees straight, lower dumbbells to top or sides of feet by bending hips. Allow hips to fall back and bend waist as dumbbell approaches feet. Lift dumbbells by extending hips and waist until standing upright. Pull shoulders back if rounded. Repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/ErectorSpinae/DBOneArmStraightlegDeadlift.gif",
+      "muscles": {
+        "target": "Erector Spinae"
+      },
+      "name": "Dumbbell One Arm Straight Leg Deadlift",
+      "classification": {
+        "mechanics": "Compound",
+        "force": "Pull",
+        "utility": "Basic or Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Stand with shoulder width or wide stance. Grasp dumbbell to side. Place opposite hand to side or behind low back.",
+        "execution": "With knees straight, lower dumbbell between feet by bending hips and twisting waist, so shoulder of weighted side is turned forward. Allow hips to fall back and waist to bend as dumbbell approaches floor. Lift dumbbell upward and back to side by extending hips and waist until standing upright. Pull shoulder back if rounded. Repeat. Perform exercise with opposite arm."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/GluteusMaximus/BBBentKneeGoodMorning.gif",
+      "muscles": {
+        "target": "Gluteus Maximus"
+      },
+      "name": "Barbell Bent Knee Good-morning",
+      "classification": {
+        "mechanics": "Isolated",
+        "force": "Pull",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Position barbell on back of shoulders and grasp bar to sides.",
+        "execution": "Keeping back straight, bend hips to lower torso forward until parallel to floor. Bend knees slightly during descent. Raise torso until hips are extended. Repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/GluteusMaximus/BBSeatedGoodMorning.gif",
+      "muscles": {
+        "target": "Gluteus Maximus"
+      },
+      "name": "Barbell Seated Good-morning",
+      "classification": {
+        "mechanics": "Isolated",
+        "force": "Pull",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Position barbell on back of shoulders and grasp bar to sides. Sit on end of bench or corner of box secured to floor. Position feet apart on floor with knees slightly bent.",
+        "execution": "Keeping back straight, bend torso forward as low as possible by bending hips. Raise torso until torso is upright. Repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/ErectorSpinae/BBDeadlift.gif",
+      "muscles": {
+        "target": "Gluteus Maximus"
+      },
+      "name": "Barbell Deadlift",
+      "classification": {
+        "mechanics": "Compound",
+        "force": "Pull",
+        "utility": "Basic"
+      },
+      "instructions": {
+        "preparation": "With feet flat beneath bar squat down and grasp bar with shoulder width or slightly wider overhand or mixed grip.",
+        "execution": "Lift bar by extending hips and knees to full extension. Pull shoulders back at top of lift if rounded. Return weights to floor by bending hips back while allowing knees to bend forward, keeping back straight and knees pointed same direction as feet. Repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/ErectorSpinae/BBSumoDeadlift.gif",
+      "muscles": {
+        "target": "Gluteus Maximus"
+      },
+      "name": "Barbell Sumo Deadlift",
+      "classification": {
+        "mechanics": "Compound",
+        "force": "Pull",
+        "utility": "Basic"
+      },
+      "instructions": {
+        "preparation": "Position feet under bar with very wide stance. Squat down and grasp bar between legs with shoulder width or slightly narrower mixed grip. Face forward while positioning shoulders upward with arms straight, chest high, hips low, and back stSELECTION/SELECTIONraight.",
+        "execution": "Pull bar up by driving feet outward and pulling back until hips and knees are fully extended and torso is upright. Drive shoulders back and chest up at top of lift. Return weight to floor by bending hips back and knees pointed outward, while keeping chest high and back straight. Repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/ErectorSpinae/BBStiffLegDeadlift.gif",
+      "muscles": {
+        "target": "Gluteus Maximus"
+      },
+      "name": "Barbell Stiff Leg Deadlift",
+      "classification": {
+        "mechanics": "Compound",
+        "force": "Pull",
+        "utility": "Basic or Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Stand with shoulder width or narrower stance on 5\" to 8\" (13-20 cm) platform with feet flat beneath bar. Bend over and grasp barbell with shoulder width or slightly wider overhand or mixed grip.",
+        "execution": "With knees bent, lift bar by extending at hips until standing upright. Pull shoulders back at top of lift if rounded. Extend knees at top if desired. Lower bar to top of feet by bending hips. Bend knees slightly during descent and keep waist straight, flexing only slightly at bottom. Repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/GluteusMaximus/BBSingleLegStiffLegDeadlift%20.gif",
+      "muscles": {
+        "target": "Gluteus Maximus (supporting leg)"
+      },
+      "name": "Barbell Single Leg Stiff-leg Deadlift",
+      "classification": {
+        "mechanics": "Isolated",
+        "force": "Pull",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Hold barbell down in front, arms straight with shoulder width or slightly wider overhand grip. Stand with feet together. Lift leg slightly so foot is just off floor.",
+        "execution": "Lower bar to floor while raising lifted leg back behind. Keep back straight and knee of supporting leg slightly bent. Keep hip and knee of lifted leg extended throughout movement. Once stretch is felt or barbell contacts floor, return to original position by raising torso while lowering lifted leg. Straighten knee of supporting leg as torso becomes upright. Repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/GluteusMaximus/BBStraightBackStiffLegDeadlift.gif",
+      "muscles": {
+        "target": "Gluteus Maximus"
+      },
+      "name": "Barbell Straight-back Stiff-leg Deadlift",
+      "classification": {
+        "mechanics": "Isolated",
+        "force": "Pull",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Grasp barbell from rack or deadlift from floor with shoulder width or slightly wider overhand or mixed grip. Stand with shoulder width or narrower stance.",
+        "execution": "With back straight, lower bar to top of feet by bending hips. Bend knees slightly during descent and keep waist straight. Place weight onto floor. With knees still bent, lift bar by straightening hips until standing upright. Pull shoulders back if rounded. Extend knees at top if desired. Repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/GluteusMaximus/BBLungeGlute.gif",
+      "muscles": {
+        "target": "Gluteus Maximus"
+      },
+      "name": "Barbell Lunge",
+      "classification": {
+        "mechanics": "Compound",
+        "force": "Push",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Clean bar from floor or dismount bar from rack. From rack with barbell upper chest height, position bar on back of shoulders and grasp barbell to sides.",
+        "execution": "Lunge forward with first leg. Land on heel, then forefoot. Lower body by flexing knee and hip of front leg until knee of rear leg is almost in contact with floor. Return to original standing position by forcibly extending hip and knee of forward leg. Repeat by alternating lunge with opposite leg."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/GluteusMaximus/BBRearLunge.gif",
+      "muscles": {
+        "target": "Gluteus Maximus"
+      },
+      "name": "Barbell Rear Lunge",
+      "classification": {
+        "mechanics": "Compound",
+        "force": "Push",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "From rack with barbell upper chest height, position bar on back of shoulders and grasp barbell to sides. Dismount bar from rack.",
+        "execution": "Step back with one leg while bending supporting leg. Plant forefoot far back on floor. Lower body by flexing knee and hip of supporting leg until knee of rear leg is almost in contact with floor. Return to original standing position by extending hip and knee of forward supporting leg and return rear leg next to supporting leg. Repeat movement with opposite legs alternating between sides."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/GluteusMaximus/BBSideLunge.gif",
+      "muscles": {
+        "target": "Gluteus Maximus"
+      },
+      "name": "Barbell Side Lunge",
+      "classification": {
+        "mechanics": "Compound",
+        "force": "Push",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Clean bar from floor or dismount bar from rack. From rack with barbell upper chest height, position bar on back of shoulders and grasp barbell to sides.",
+        "execution": "Lunge to one side with first leg. Land on heel, then on forefoot. Lower body by flexing knee and hip of lead leg, keeping knee pointed same direction of foot. Return to original standing position by forcibly extending hip and knee of lead leg. Repeat by alternating lunge with opposite leg."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/GluteusMaximus/BBWalkingLunge.gif",
+      "muscles": {
+        "target": "Gluteus Maximus"
+      },
+      "name": "Barbell Walking Lunge",
+      "classification": {
+        "mechanics": "Compound",
+        "force": "Push",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Position barbell on back of shoulders and grasp bar to sides.",
+        "execution": "Step forward with first leg. Land on heel, then forefoot. Lower body by flexing knee and hip of front leg until knee of rear leg is almost in contact with floor. Stand on forward leg with assistance of rear leg. Lunge forward with opposite leg. Repeat by alternating lunge with opposite legs."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/Quadriceps/BBSingleLegSplitSquat.gif",
+      "muscles": {
+        "target": "Gluteus Maximus"
+      },
+      "name": "Barbell Single Leg Split Squat",
+      "classification": {
+        "mechanics": "Compound",
+        "force": "Push",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Stand facing away from bench. Position bar on back of shoulders and grasp barbell to sides. Extend leg back and place top of foot on bench.",
+        "execution": "Squat down by flexing knee and hip of front leg until knee of rear leg is almost in contact with floor. Return to original standing position by extending hip and knee of forward leg. Repeat. Continue with opposite leg."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/Quadriceps/BBSingleLegSquat.gif",
+      "muscles": {
+        "target": "Gluteus Maximus"
+      },
+      "name": "Barbell Single Leg Squat",
+      "classification": {
+        "mechanics": "Compound",
+        "force": "Push",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Stand with arms extended out in front holding barbell. Balance on one leg with opposite leg extended straight leg forward as high as possible.",
+        "execution": "Squat down as far as possible while keeping leg elevated off of floor. Keep SELECTION/SELECTIONsupporting knee pointed same direction as foot supporting. Raise body back up to original position until knee and hip of supporting leg is straight. Return and repeat. Continue with opposite leg."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/GluteusMaximus/BBSplitSquat.gif",
+      "muscles": {
+        "target": "Gluteus Maximus"
+      },
+      "name": "Barbell Split Squat",
+      "classification": {
+        "mechanics": "Compound",
+        "force": "Push",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Position barbell on back of shoulders and grasp barbell to sides. Stand with feet far apart; one foot forward and other foot behind.",
+        "execution": "Squat down by flexing knee and hip of front leg. Allow heel of rear foot to rise up while knee of rear leg bends slightly until it almost makes contact with floor. Return to original standing position by extending hip and knee of forward leg. Repeat. Continue with opposite leg."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/GluteusMaximus/BBBoxSquat.gif",
+      "muscles": {
+        "target": "Gluteus Maximus"
+      },
+      "name": "Barbell Box Squat",
+      "classification": {
+        "mechanics": "Compound",
+        "force": "Push",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "From rack with barbell at upper chest height, position bar on back of shoulders. Grasp barbell to sides. Dismount bar from rack and back up until contact is made with box immediately behind. Stand with wide stance with feet flared out slightly.",
+        "execution": "Sit back onto box by bending hips back while bending knees, keeping shins nearly perpendicular. Lower rear end back onto box in controlled manner. Stop just long enough to change directions. Immediately stand back up rapidly by driving hips upward, keeping knees above ankles and chest high until legs are straight. Return and repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/Quadriceps/BBFrontSquat.gif",
+      "muscles": {
+        "target": "Gluteus Maximus"
+      },
+      "name": "Barbell Front Squat",
+      "classification": {
+        "mechanics": "Compound",
+        "force": "Push",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "From rack with barbell upper chest height, position bar in front of shoulders. Cross arms and place hands on top of barbell with upper arms parallel to floor. Dismount bar from rack.",
+        "execution": "Squat down by bending hips back while allowing knees to bend forward, keeping back straight and knees pointed same direction as feet. Descend until thighs are just past parallel. Extend knees and hips until legs are straight. Return and repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/Quadriceps/BBFullSquat.gif",
+      "muscles": {
+        "target": "Gluteus Maximus"
+      },
+      "name": "Barbell Full Squat",
+      "classification": {
+        "mechanics": "Compound",
+        "force": "Push",
+        "utility": "Basic"
+      },
+      "instructions": {
+        "preparation": "From rack with barbell upper chest height, position barbell on back of shoulders and grasp bar to sides. Dismount bar from rack.",
+        "execution": "Squat down by bending hips back while allowing knees to bend forward, keeping back straight and knees pointed same direction as feet. Descend until knees and hips are fully bent. Extend knees and hips until legs are straight. Return and repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/Quadriceps/BBHackSquat.gif",
+      "muscles": {
+        "target": "Gluteus Maximus"
+      },
+      "name": "Barbell Hack Squat",
+      "classification": {
+        "mechanics": "Compound",
+        "force": "Push",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Position barbell just behind legs. With feet flat on floor, squat down and grasp barbell from behind with overhand grip.",
+        "execution": "Lift bar by extending hips and knees to full extension. Squat down by bending knees forward while allowing hips to bend back behind, keeping back straight and knees pointed same direction as feet. Descend until thighs are close to parallel to floor and bar is behind lower leg. Repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/GluteusMaximus/BBSquatChains.gif",
+      "muscles": {
+        "target": "Gluteus Maximus"
+      },
+      "name": "Barbell Squat (with chains)",
+      "classification": {
+        "mechanics": "Compound",
+        "force": "Push",
+        "utility": "Basic or Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Stand facing barbell, racked upper chest height, with thick chains hanging to floor on each side. Position bar low on back of shoulders. Grasp barbell to sides and position elbows back. Dismount bar from rack and stand with wide stance.",
+        "execution": "Squat down by bending hips back while allowing knees to bend forward slightly, keeping back straight and knees pointed same direction as feet.SELECTION/SELECTION Descend until thighs are just past parallel to floor. Extend hips and knees until legs are straight. Return and repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/Quadriceps/BBStepUp.gif",
+      "muscles": {
+        "target": "Gluteus Maximus"
+      },
+      "name": "Barbell Step-up",
+      "classification": {
+        "mechanics": "Compound",
+        "force": "Push",
+        "utility": "Basic or Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Stand facing side of bench. Position bar on back of shoulders and grasp barbell to sides.",
+        "execution": "Place foot of first leg on bench. Stand on bench by extending hip and knee of first leg and place foot of second leg on bench. Step down with second leg by flexing hip and knee of first leg. Return to original standing position by placing foot of first leg to floor. Repeat first step with opposite leg alternating first steps between legs."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/Quadriceps/BBLateralStepUp.gif",
+      "muscles": {
+        "target": "Gluteus Maximus"
+      },
+      "name": "Barbell Lateral Step-up",
+      "classification": {
+        "mechanics": "Compound",
+        "force": "Push",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Stand between two benches, one to each side. Position bar on back of shoulders and grasp barbell to sides.",
+        "execution": "Lift leg and place foot on bench to side and forward of straight knee. Stand on bench by straightening leg and pushing body upward. Step down returning feet to original position. Repeat with opposite leg, alternating between legs."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/GluteusMaximus/DBLungeGlute.gif",
+      "muscles": {
+        "target": "Gluteus Maximus"
+      },
+      "name": "Dumbbell Lunge",
+      "classification": {
+        "mechanics": "Compound",
+        "force": "Push",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Stand with dumbbells grasped to sides.",
+        "execution": "Lunge forward with first leg. Land on heel then forefoot. Lower body by flexing knee and hip of front leg until knee of rear leg is almost in contact with floor. Return to original standing position by forcibly extending hip and knee of forward leg. Repeat by alternating lunge with opposite leg."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/GluteusMaximus/DBRearLunge.gif",
+      "muscles": {
+        "target": "Gluteus Maximus"
+      },
+      "name": "Dumbbell Rear Lunge",
+      "classification": {
+        "mechanics": "Compound",
+        "force": "Push",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Stand with dumbbells grasped to sides.",
+        "execution": "Step back with one leg while bending supporting leg. Plant forefoot far back on floor. Lower body by flexing knee and hip of supporting leg until knee of rear leg is almost in contact with floor. Return to original standing position by extending hip and knee of forward supporting leg and return rear leg next to supporting leg. Repeat movement with opposite legs alternating between sides."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/GluteusMaximus/DBSideLunge.gif",
+      "muscles": {
+        "target": "Gluteus Maximus"
+      },
+      "name": "Dumbbell Side Lunge",
+      "classification": {
+        "mechanics": "Compound",
+        "force": "Push",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Stand with dumbbells grasped to sides.",
+        "execution": "Lunge to one side with first leg. Position closest dumbbell behind thigh and opposite dumbbell to front. Land on heel then forefoot. Lower body by flexing knee and hip of lead leg, keeping knee pointed same direction of foot. Return to original standing position by forcibly extending hip and knee of lead leg. Repeat by alternating lunge with opposite leg."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/GluteusMaximus/DBWalkingLunge.gif",
+      "muscles": {
+        "target": "Gluteus Maximus"
+      },
+      "name": "Dumbbell Walking Lunge",
+      "classification": {
+        "mechanics": "Compound",
+        "force": "Push",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Stand with dumbbells grasped to sides.",
+        "execution": "Step forward with first leg. Land on heel then forefoot. Lower body by flexing knee and hip of front leg until knee of rear leg is almost in contact with floor. Stand on forward leg with assistance of rear leg. Lunge forward with opposite leg. Repeat by alternating lunge with opposite legs."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/GluteusMaximus/DBSingleLegStiffLegDeadlift.gif",
+      "muscles": {
+        "target": "Gluteus Maximus (supporting leg)"
+      },
+      "name": "Dumbell Single Leg Stiff-leg Deadlift",
+      "classification": {
+        "mechanics": "Isolated",
+        "force": "Pull",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Hold dumbbell in each hand. Position dumbbells down in front of upper thighs with arms straight. Stand with feet together. Lift leg slightly so foot is just off floor.",
+        "execution": "Lower dumbells to floor while raising lifted leg back behind. Keep back straight and knee of supporting leg slightly bend. Keep hip and knee of lifted leg extended throughout movement. Once stretch is felt or dumbells contacts floor, return to original position by raising torso while lowering lifted leg. Straighten knee of supporting leg as torso becomes upright. Repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/Quadriceps/DBSquat.gif",
+      "muscles": {
+        "target": "Gluteus Maximus"
+      },
+      "name": "Dumbbell Squat",
+      "classification": {
+        "mechanics": "Compound",
+        "force": "Push",
+        "utility": "Basic or Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Stand with dumbbells grasped to sides.",
+        "execution": "Squat down by bending hips back while allowing knees to bend forward slightly, keeping back straight and knees pointed same direction as feet.SELECTION/SELECTION Descend until thighs are just past parallel to floor. Extend knees and hips until legs are straight. Return and repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/Quadriceps/DBFrontSquat.gif",
+      "muscles": {
+        "target": "Gluteus Maximus"
+      },
+      "name": "Dumbbell Front Squat",
+      "classification": {
+        "mechanics": "Compound",
+        "force": "Push",
+        "utility": "Basic or Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Stand with dumbbells grasped to sides. Clean dumbbells up to shoulders so side of each dumbbell rests on top of each shoulder. Balance dumbbells on shoulder by holding on to dumbbells with elbows flaring outward.",
+        "execution": "Squat down by bending hips back while allowing knees to bend forward slightly, keeping back straight and knees pointed same direction as feet.SELECTION/SELECTION Descend until thighs are just past parallel to floor. Extend knees and hips until legs are straight. Return and repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/Quadriceps/DBSingleLegSplitSquat.gif",
+      "muscles": {
+        "target": "Gluteus Maximus"
+      },
+      "name": "Dumbbell Single Leg Split Squat",
+      "classification": {
+        "mechanics": "Compound",
+        "force": "Push",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Stand with dumbbells grasped to sides facing away from bench. Extend leg back and place top of foot on bench.",
+        "execution": "Squat down by flexing knee and hip of front leg until knee of rear leg is almost in contact with floor. Return to original standing position by extending hip and knee of forward leg. Repeat. Continue with opposite leg."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/Quadriceps/DBSingleLegSquat.gif",
+      "muscles": {
+        "target": "Gluteus Maximus"
+      },
+      "name": "Dumbbell Single Leg Squat",
+      "classification": {
+        "mechanics": "Compound",
+        "force": "Push",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Stand with dumbbells grasped to sides. Balance on one leg with opposite leg extended straight leg forward as high as possible.",
+        "execution": "Squat down as far as possible while keeping leg elevated off of floor. Keep SELECTION/SELECTIONsupporting knee pointed same direction as foot supporting. Raise body back up to original position until knee and hip of supporting leg is straight. Return and repeat. Continue with opposite leg."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/GluteusMaximus/DBSplitSquat.gif",
+      "muscles": {
+        "target": "Gluteus Maximus"
+      },
+      "name": "Dumbbell Split Squat",
+      "classification": {
+        "mechanics": "Compound",
+        "force": "Push",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Stand with dumbbells grasped to sides. Stand with feet far apart; one foot forward and other foot behind.",
+        "execution": "Squat down by flexing knee and hip of front leg. Allow heel of rear foot to rise up while knee of rear leg bends slightly until it almost makes contact with floor. Return to original standing position by extending hip and knee of forward leg. Repeat. Continue with opposite leg."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/Quadriceps/DBStepUp.gif",
+      "muscles": {
+        "target": "Gluteus Maximus"
+      },
+      "name": "Dumbbell Step-up",
+      "classification": {
+        "mechanics": "Compound",
+        "force": "Push",
+        "utility": "Basic or Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Stand with dumbbells grasped to sides facing side of bench.",
+        "execution": "Place foot of first leg on bench. Stand on bench by extending hip and knee of first leg and place foot of second leg on bench. Step down with second leg by flexing hip and knee of first leg. Return to original standing position by placing foot of first leg to floor. Repeat first step with opposite leg, alternating first steps between legs."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/Quadriceps/DBLateralStepUp.gif",
+      "muscles": {
+        "target": "Gluteus Maximus"
+      },
+      "name": "Dumbbell Lateral Step-up",
+      "classification": {
+        "mechanics": "Compound",
+        "force": "Push",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Stand between two benches, one to each side. Hold dumbbells in each hand down to sides",
+        "execution": "Lift leg and place foot on bench to side and forward of straight knee. Stand on bench by straightening leg and pushing body upward. Step down returning feet to original position. Repeat with opposite leg alternating between legs."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/Quadriceps/DBStepDown.gif",
+      "muscles": {
+        "target": "Gluteus Maximus"
+      },
+      "name": "Dumbbell Step Down",
+      "classification": {
+        "mechanics": "Compound",
+        "force": "Push",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Hold dumbbells in each hand down to sides and stand with one foot on bench. Position foot on bench to side, forward of straight knee.",
+        "execution": "Stand on bench by straightening leg and pushing body upward. Step down returning foot off of bench to floor and repeat. Continue with opposite position."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/HipAbductor/DBLyingHipAbduction.gif",
+      "muscles": {
+        "target": "Hip Abductors (listed below)"
+      },
+      "name": "Dumbbell Lying Hip Abduction",
+      "classification": {
+        "mechanics": "Isolated",
+        "force": "Push",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Lie on side on floor or mat. Extend top leg down straight and position lower leg back underneath. Grasping dumbbell with hand of arm furthest from floor, position dumbbell as low as possible on top side of thigh.",
+        "execution": "Raise weighted leg up off ground as high as possible, keeping dumbbell positioned on side of upper thigh. Return to leg to floor and repeat. Repeat and continue with opposite leg."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/Quadriceps/BBLungeQuad.gif",
+      "muscles": {
+        "target": "Quadriceps"
+      },
+      "name": "Barbell Lunge",
+      "classification": {
+        "mechanics": "Compound",
+        "force": "Push",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Clean bar from floor or dismount bar from rack. From rack with barbell upper chest height, position bar on back of shoulders and grasp barbell to sides.",
+        "execution": "Lunge forward with first leg. Land on heel, then forefoot. Lower body by flexing knee and hip of front leg until knee of rear leg is almost in contact with floor. Return to original standing position by forcibly extending hip and knee of forward leg. Repeat by alternating lunge with opposite leg."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/GluteusMaximus/BBSideLunge.gif",
+      "muscles": {
+        "target": "Quadriceps"
+      },
+      "name": "Barbell Side Lunge",
+      "classification": {
+        "mechanics": "Compound",
+        "force": "Push",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Clean bar from floor or dismount bar from rack. From rack with barbell upper chest height, position bar on back of shoulders and grasp barbell to sides.",
+        "execution": "Lunge to one side with first leg. Land on heel, then forefoot. Lower body by flexing knee and hip of lead leg, keeping knee pointed same direction of foot. Return to original standing position by forcibly extending hip and knee of lead leg. Repeat by alternating lunge with opposite leg."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/GluteusMaximus/BBWalkingLunge.gif",
+      "muscles": {
+        "target": "Quadriceps"
+      },
+      "name": "Barbell Walking Lunge",
+      "classification": {
+        "mechanics": "Compound",
+        "force": "Push",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Position barbell on back of shoulders and grasp bar to sides.",
+        "execution": "Step forward with first leg. Land on heel, then forefoot. Lower body by flexing knee and hip of front leg until knee of rear leg is almost in contact with floor. Stand on forward leg with assistance of rear leg. Lunge forward with opposite leg. Repeat by alternating lunge with opposite legs."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/Quadriceps/BBSingleLegSplitSquat.gif",
+      "muscles": {
+        "target": "Quadriceps"
+      },
+      "name": "Barbell Single Leg Split Squat",
+      "classification": {
+        "mechanics": "Compound",
+        "force": "Push",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Stand facing away from bench. Position bar on back of shoulders and grasp barbell to sides. Extend leg back and place top of foot on bench.",
+        "execution": "Squat down by flexing knee and hip of front leg until knee of rear leg is almost in contact with floor. Return to original standing position by extending hip and knee of forward leg. Repeat. Continue with opposite leg."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/GluteusMaximus/BBSideSplitSquat.gif",
+      "muscles": {
+        "target": "Quadriceps"
+      },
+      "name": "Barbell Side Split Squat",
+      "classification": {
+        "mechanics": "Compound",
+        "force": "Push",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Place barbell on back of shoulders and grasp bar on each side. Stand with feet wide apart; foot of lead leg angled out to side.",
+        "execution": "Lower body toward side of angled foot by bending knee and hip of lead leg while keeping opposite leg only slightly bent. Return to original standing position by extending hip and knee of lead leg. Repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/Quadriceps/BBSingleLegSquat.gif",
+      "muscles": {
+        "target": "Quadriceps"
+      },
+      "name": "Barbell Single Leg Squat",
+      "classification": {
+        "mechanics": "Compound",
+        "force": "Push",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Stand with arms extended out in front holding barbell. Balance on one leg with opposite leg extended straight leg forward as high as possible.",
+        "execution": "Squat down as far as possible while keeping leg elevated off of floor. Keep SELECTION/SELECTIONsupporting knee pointed same direction as foot supporting. Raise body back up to original position until knee and hip of supporting leg is straight. Return and repeat. Continue with opposite leg."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/GluteusMaximus/BBSplitSquat.gif",
+      "muscles": {
+        "target": "Quadriceps"
+      },
+      "name": "Barbell Split Squat",
+      "classification": {
+        "mechanics": "Compound",
+        "force": "Push",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Position barbell on back of shoulders and grasp barbell to sides. Stand with feet far apart; one foot forward and other foot behind.",
+        "execution": "Squat down by flexing knee and hip of front leg. Allow heel of rear foot to rise up while knee of rear leg bends slightly until it almost makes contact with floor. Return to original standing position by extending hip and knee of forward leg. Repeat. Continue with opposite leg."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/Quadriceps/BBFrontSquat.gif",
+      "muscles": {
+        "target": "Quadriceps"
+      },
+      "name": "Barbell Front Squat",
+      "classification": {
+        "mechanics": "Compound",
+        "force": "Push",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "From rack with barbell upper chest height, position bar in front of shoulders. Cross arms and place hands on top of barbell with upper arms parallel to floor. Dismount bar from rack.",
+        "execution": "Squat down by bending hips back while allowing knees to bend forward, keeping back straight and knees pointed same direction as feet. Descend until thighs are just past parallel. Extend knees and hips until legs are straight. Return and repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/Quadriceps/BBFullSquat.gif",
+      "muscles": {
+        "target": "Quadriceps"
+      },
+      "name": "Barbell Full Squat",
+      "classification": {
+        "mechanics": "Compound",
+        "force": "Push",
+        "utility": "Basic"
+      },
+      "instructions": {
+        "preparation": "From rack with barbell upper chest height, position barbell on back of shoulders and grasp bar to sides. Dismount bar from rack.",
+        "execution": "Squat down by bending hips back while allowing knees to bend forward, keeping back straight and knees pointed same direction as feet. Descend until knees and hips are fully bent. Extend knees and hips until legs are straight. Return and repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/Quadriceps/BBHackSquat.gif",
+      "muscles": {
+        "target": "Quadriceps"
+      },
+      "name": "Barbell Hack Squat",
+      "classification": {
+        "mechanics": "Compound",
+        "force": "Push",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Position barbell just behind legs. With feet flat on floor, squat down and grasp barbell from behind with overhand grip.",
+        "execution": "Lift bar by extending hips and knees to full extension. Squat down by bending hips back while allowing knees to bend forward, keeping back straight and knees pointed same direction as feet. Descend until thighs are close to parallel to floor and bar is behind lower leg. Repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/GluteusMaximus/BBSquatChains.gif",
+      "muscles": {
+        "target": "Quadriceps"
+      },
+      "name": "Barbell Squat (with chains)",
+      "classification": {
+        "mechanics": "Compound",
+        "force": "Push",
+        "utility": "Basic or Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Stand facing barbell, racked upper chest height, with thick chains hanging to floor on each side. Position bar high on back of shoulders and grasp barbell to sides. Dismount bar from rack and stand with shoulder width stance.",
+        "execution": "Squat down by bending hips back while allowing knees to bend forward, keeping back straight and knees pointed same direction as feet.SELECTION/SELECTION Descend until thighs are just past parallel to floor. Extend knees and hips until legs are straight. Return and repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/Quadriceps/BBStepUp.gif",
+      "muscles": {
+        "target": "Quadriceps"
+      },
+      "name": "Barbell Step-up",
+      "classification": {
+        "mechanics": "Compound",
+        "force": "Push",
+        "utility": "Basic or Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Stand facing side of bench. Position bar on back of shoulders and grasp barbell to sides.",
+        "execution": "Place foot of first leg on bench. Stand on bench by extending hip and knee of first leg and place foot of second leg on bench. Step down with second leg by flexing hip and knee of first leg. Return to original standing position by placing foot of first leg to floor. Repeat first step with opposite leg, alternating first steps between legs."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/Quadriceps/BBLateralStepUp.gif",
+      "muscles": {
+        "target": "Quadriceps"
+      },
+      "name": "Barbell Lateral Step-up",
+      "classification": {
+        "mechanics": "Compound",
+        "force": "Push",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Stand between two benches, one to each side. Position bar on back of shoulders and grasp barbell to sides.",
+        "execution": "Lift leg and place foot on bench to side slightly forward of straight knee. Stand on bench by straightening leg and pushing body upward. Step down returning feet to original position. Repeat with opposite leg alternating between legs."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/Hamstrings/BBGoodMorning.gif",
+      "muscles": {
+        "target": "Hamstrings"
+      },
+      "name": "Barbell Good-morning",
+      "classification": {
+        "mechanics": "Isolated",
+        "force": "Pull",
+        "utility": "Basic or Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Position barbell on back of shoulders and grasp bar to sides.",
+        "execution": "Keeping back straight, bend hips to lower torso forward until parallel to floor. Raise torso until hips are extended. Repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/Hamstrings/BBGluteHamRaise.gif",
+      "muscles": {
+        "target": "Hamstrings"
+      },
+      "name": "Barbell Glute-Ham Raise",
+      "classification": {
+        "mechanics": "Isolated",
+        "force": "Pull",
+        "utility": "Basic or Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Place ankles between ankle roller pads with feet on vertical platform and position knees on pad with lower thighs against large padded hump. If barbell can safely be placed on horizontal handles, grasp barbell in upright position and place behind shoulders. If barbell is placed on floor, lower torso by extending knees and flexing hips, then position barbell on back of shoulders. Grasp bar to sides.",
+        "execution": "From lower position, raise torso by extending hips until fully extended. Continue to raise body by flexing knees until body is upright. Lower body by straightening knees until body is horizontal. Continue to lower torso by bending hips until body is upside down. Repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/Hamstrings/BBHamRaise.gif",
+      "muscles": {
+        "target": "Hamstrings"
+      },
+      "name": "Barbell Inverse Leg Curl",
+      "classification": {
+        "mechanics": "Isolated",
+        "force": "Pull",
+        "utility": "Basic"
+      },
+      "instructions": {
+        "preparation": "Adjust padded supports and kneel upright in apparatus. Position knees against large roller pad or near-upper side of padded hump, ankles between padded supports, and feet on platform. Place barbell on back of shoulders and grasp bar to sides.",
+        "execution": "Lower body until horizontal by straightening knees. Raise body by flexing knees only allowing hips to bend slightly. Repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/ErectorSpinae/BBHyperExtention.gif",
+      "muscles": {
+        "target": "Hamstrings"
+      },
+      "name": "Barbell Hyperextension",
+      "classification": {
+        "mechanics": "Compound",
+        "force": "Pull",
+        "utility": "Basic or Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Position thighs prone on large pad and lower leg under padded brace. Place barbell on back of shoulders and grasp bar to sides.",
+        "execution": "Raise upper body until hip and waist are fully extended. Lower body by bending hips and waist until fully flexed. Repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/Hamstrings/BBHipExtention.gif",
+      "muscles": {
+        "target": "Hamstrings"
+      },
+      "name": "Barbell Back Raise (on hyperextension apparatus)",
+      "classification": {
+        "mechanics": "Isolated",
+        "force": "Pull",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Stand in hyper-extension apparatus. Position thighs prone on large pad and lower leg under padded bar. Place barbell on back of shoulders and grasp bar to sides.",
+        "execution": "Lower body by bending hips until fully flexed. Raise, or extend hips until torso is parallel to legs. Repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/ErectorSpinae/BBHyperextension.gif",
+      "muscles": {
+        "target": "Hamstrings"
+      },
+      "name": "Barbell 45-degree Hyperextension",
+      "classification": {
+        "mechanics": "Compound",
+        "force": "Pull",
+        "utility": "Basic or Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Position thighs prone on padding. Hook heels on platform lip or under padded brace. Place barbell on back of shoulders and grasp bar to sides.",
+        "execution": "Raise upper body until hip and waist are fully extended. Lower body by bending hips and waist until fully flexed. Repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/Hamstrings/BBHipExtension.gif",
+      "muscles": {
+        "target": "Hamstrings"
+      },
+      "name": "Barbell 45-degree Back Raise (on hyperextension apparatus)",
+      "classification": {
+        "mechanics": "Isolated",
+        "force": "Pull",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Position thighs prone on upper padding of 45-degree hyper-extension apparatus. Hook heels on platform lip or under padded brace. Place barbell on back of shoulders and grasp bar to sides.",
+        "execution": "Lower body by bending hips until fully flexed. Raise or extend hips until torso is parallel to legs. Repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/Hamstrings/BBStraightLegDeadlift.gif",
+      "muscles": {
+        "target": "Hamstrings"
+      },
+      "name": "Barbell Straight Leg Deadlift",
+      "classification": {
+        "mechanics": "Compound",
+        "force": "Pull",
+        "utility": "Basic"
+      },
+      "instructions": {
+        "preparation": "Stand with shoulder width or narrower stance on shallow platform with feet flat beneath bar. Bend knees and bend over with lower back straight. Grasp barbell with shoulder width overhand or mixed grip, shoulder width or slightly wider. Lift weight to standing position.",
+        "execution": "With knees straight, lower bar toward top of feet by bending hips. After hips can no longer flex, bend waist as bar approaches top of feet. Lift bar by extending waist and hip until standing upright. Pull shoulders back slightly if rounded. Repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/Hamstrings/BBStraightBackStraightLegDeadlift.gif",
+      "muscles": {
+        "target": "Hamstrings"
+      },
+      "name": "Barbell Straight-back Straight-leg Deadlift",
+      "classification": {
+        "mechanics": "Isolated",
+        "force": "Pull",
+        "utility": "Basic or Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Grasp barbell from rack or deadlift from floor with shoulder width or slightly wider overhand or mixed grip. Stand with shoulder width or narrower stance.",
+        "execution": "With knees and back straight, lower bar by bending hips until hamstrings are tight, or just before lower back bends. Lift bar by extending hips until upright. Pull shoulders slightly back at top of lift if rounded. Repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/Quadriceps/DBLungeQuad.gif",
+      "muscles": {
+        "target": "Quadriceps"
+      },
+      "name": "Dumbbell Lunge",
+      "classification": {
+        "mechanics": "Compound",
+        "force": "Push",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Stand with dumbbells grasped to sides.",
+        "execution": "Lunge forward with first leg. Land on heel, then forefoot. Lower body by flexing knee and hip of front leg until knee of rear leg is almost in contact with floor. Return to original standing position by forcibly extending hip and knee of forward leg. Repeat by alternating lunge with opposite leg."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/GluteusMaximus/DBRearLunge.gif",
+      "muscles": {
+        "target": "Quadriceps"
+      },
+      "name": "Dumbbell Rear Lunge",
+      "classification": {
+        "mechanics": "Compound",
+        "force": "Push",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Stand with dumbbells grasped to sides.",
+        "execution": "Step back with one leg while bending supporting leg. Plant forefoot far back on floor. Lower body by flexing knee and hip of supporting leg until knee of rear leg is almost in contact with floor. Return to original standing position by extending hip and knee of forward supporting leg and return rear leg next to supporting leg. Repeat movement with opposite legs alternating between sides."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/GluteusMaximus/DBSideLunge.gif",
+      "muscles": {
+        "target": "Quadriceps"
+      },
+      "name": "Dumbbell Side Lunge",
+      "classification": {
+        "mechanics": "Compound",
+        "force": "Push",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Stand with dumbbells grasped to sides.",
+        "execution": "Lunge to one side with first leg. Position closest dumbbell behind thigh and opposite dumbbell to front. Land on heel, then forefoot. Lower body by flexing knee and hip of lead leg, keeping knee pointed same direction of foot. Return to original standing position by forcibly extending hip and knee of lead leg. Repeat by alternating lunge with opposite leg."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/GluteusMaximus/DBWalkingLunge.gif",
+      "muscles": {
+        "target": "Quadriceps"
+      },
+      "name": "Dumbbell Walking Lunge",
+      "classification": {
+        "mechanics": "Compound",
+        "force": "Push",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Stand with dumbbells grasped to sides.",
+        "execution": "Step forward with first leg. Land on heel, then forefoot. Lower body by flexing knee and hip of front leg until knee of rear leg is almost in contact with floor. Stand on forward leg with assistance of rear leg. Lunge forward with opposite leg. Repeat by alternating lunge with opposite legs."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/Quadriceps/DBSingleLegSplitSquat.gif",
+      "muscles": {
+        "target": "Quadriceps"
+      },
+      "name": "Dumbbell Single Leg Split Squat",
+      "classification": {
+        "mechanics": "Compound",
+        "force": "Push",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Stand with dumbbells grasped to sides facing away from bench. Extend leg back and place top of foot on bench.",
+        "execution": "Squat down by flexing knee and hip of front leg until knee of rear leg is almost in contact with floor. Return to original standing position by extending hip and knee of forward leg and repeat. Continue with opposite leg."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/Quadriceps/DBSingleLegSquat.gif",
+      "muscles": {
+        "target": "Quadriceps"
+      },
+      "name": "Dumbbell Single Leg Squat",
+      "classification": {
+        "mechanics": "Compound",
+        "force": "Push",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Stand with dumbbells grasped to sides. Balance on one leg with opposite leg extended straight leg forward as high as possible.",
+        "execution": "Squat down as far as possible while keeping leg elevated off of floor. Keep SELECTION/SELECTIONsupporting knee pointed same direction as foot supporting. Raise body back up to original position until knee and hip of supporting leg is straight. Return and repeat. Continue with opposite leg."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/GluteusMaximus/DBSplitSquat.gif",
+      "muscles": {
+        "target": "Quadriceps"
+      },
+      "name": "Dumbbell Split Squat",
+      "classification": {
+        "mechanics": "Compound",
+        "force": "Push",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Stand with dumbbells grasped to sides. Position feet far apart; one foot forward and other foot behind.",
+        "execution": "Squat down by flexing knee and hip of front leg. Allow heel of rear foot to rise up while knee of rear leg bends slightly until it almost makes contact with floor. Return to original standing position by extending hip and knee of forward leg. Repeat. Continue with opposite leg."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/Quadriceps/DBSquat.gif",
+      "muscles": {
+        "target": "Quadriceps"
+      },
+      "name": "Dumbbell Squat",
+      "classification": {
+        "mechanics": "Compound",
+        "force": "Push",
+        "utility": "Basic or Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Stand with dumbbells grasped to sides.",
+        "execution": "Squat down by bending hips back while allowing knees to bend forward, keeping back straight and knees pointed same direction as feet.SELECTION/SELECTION Descend until thighs are just past parallel to floor. Extend knees and hips until legs are straight. Return and repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/Quadriceps/DBFrontSquat.gif",
+      "muscles": {
+        "target": "Quadriceps"
+      },
+      "name": "Dumbbell Front Squat",
+      "classification": {
+        "mechanics": "Compound",
+        "force": "Push",
+        "utility": "Basic or Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Stand with dumbbells grasped to sides. Clean dumbbells up to shoulders so side of each dumbbell rests on top of each shoulder. Balance dumbbells on shoulder by holding on to dumbbells with elbows flaring outward.",
+        "execution": "Squat down by bending hips back while allowing knees to bend forward, keeping back straight and knees pointed same direction as feet. Descend until thighs are just past parallel to floor. Extend knees and hips until legs are straight. Return and repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/Quadriceps/DBStepUp.gif",
+      "muscles": {
+        "target": "Quadriceps"
+      },
+      "name": "Dumbbell Step-up",
+      "classification": {
+        "mechanics": "Compound",
+        "force": "Push",
+        "utility": "Basic or Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Stand with dumbbells grasped to sides facing side of bench.",
+        "execution": "Place foot of first leg on bench. Stand on bench by extending hip and knee of first leg and place foot of second leg on bench. Step down with second leg by flexing hip and knee of first leg. Return to original standing position by placing foot of first leg to floor. Repeat first step with opposite leg alternating first steps between legs."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/Quadriceps/DBLateralStepUp.gif",
+      "muscles": {
+        "target": "Quadriceps"
+      },
+      "name": "Dumbbell Lateral Step-up",
+      "classification": {
+        "mechanics": "Compound",
+        "force": "Push",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Stand between two benches, one to each side. Hold dumbbells in each hand down to sides",
+        "execution": "Lift leg and place foot on bench to side slightly forward of straight knee. Stand on bench by straightening leg and pushing body upward. Step down returning feet to original position. Repeat with opposite leg alternating between legs."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/Quadriceps/DBStepDown.gif",
+      "muscles": {
+        "target": "Quadriceps"
+      },
+      "name": "Dumbbell Step Down",
+      "classification": {
+        "mechanics": "Compound",
+        "force": "Push",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Hold dumbbells in each hand down to sides and stand with one foot on bench. Position foot on bench to side slightly forward of straight knee.",
+        "execution": "Stand on bench by straightening leg and pushing body upward. Step down returning foot off of bench to floor and repeat. Continue with opposite position."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/Hamstrings/DBStraightLegDeadlift.gif",
+      "muscles": {
+        "target": "Hamstrings"
+      },
+      "name": "Dumbbell Straight Leg Deadlift",
+      "classification": {
+        "mechanics": "Compound",
+        "force": "Pull",
+        "utility": "Basic"
+      },
+      "instructions": {
+        "preparation": "Stand with shoulder width or narrower stance. Grasp dumbbells to sides.",
+        "execution": "With knees straight, lower dumbbells to top or sides of feet by bending hips. Bend waist as bar approaches feet. Lift dumbbells by extending hips and waist until standing upright. Pull shoulders back slightly if rounded. Repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/Hamstrings/DBStraightBackStraightLegDeadlift.gif",
+      "muscles": {
+        "target": "Hamstrings"
+      },
+      "name": "Dumbbell Straight-back Straight-leg Deadlift",
+      "classification": {
+        "mechanics": "Isolated",
+        "force": "Pull",
+        "utility": "Basic or Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Stand with shoulder width or narrower stance. Grasp dumbbells to each side.",
+        "execution": "With knees straight, lower dumbbells by bending hips until hamstrings are tight, or just before lower back bends. Lift dumbbells by extending hips until straight. Pull shoulders back slightly at top of lift if rounded. Repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/Gastrocnemius/BBStandingCalfRaise.gif",
+      "muscles": {
+        "target": "Gastrocnemius"
+      },
+      "name": "Barbell Standing Leg Calf Raise",
+      "classification": {
+        "mechanics": "Isolated",
+        "force": "Push",
+        "utility": "Basic"
+      },
+      "instructions": {
+        "preparation": "Set barbell on power rack upper chest height with calf block under barbell. Position back of shoulders under barbell with both hands to sides. Position toes and balls of feet on calf block with arches and heels extending off. Lean barbell against rack and raise from supports by extending knees and hips. Support barbell against verticals with both hands to sides.",
+        "execution": "Raise heels by extending ankles as high as possible. Lower heels by bending ankles until calves are stretched. Repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/TibialisAnterior/BBReverseCalfRaise.gif",
+      "muscles": {
+        "target": "Tibialis Anterior"
+      },
+      "name": "Barbell Reverse Calf Raise",
+      "classification": {
+        "mechanics": "Isolated",
+        "force": "Pull",
+        "utility": "Basic or Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Place barbell on power rack upper chest height and calf block under barbell. Position back of shoulders under barbell with both hands to sides. Position heels on forward edge of calf block. Lean barbell against rack and raise from supports by extending knees and hips. Support barbell against verticals with both hands to sides.",
+        "execution": "Pull forefoot of both feet up toward body as far as possible. Return by extending feet until toes are pointed downward. Repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/Gastrocnemius/DBCalfRaise.gif",
+      "muscles": {
+        "target": "Gastrocnemius"
+      },
+      "name": "Dumbbell Standing Calf Raise",
+      "classification": {
+        "mechanics": "Isolated",
+        "force": "Push",
+        "utility": "Basic"
+      },
+      "instructions": {
+        "preparation": "Grasp dumbbell in one hand to side. Position toes and balls of feet on calf block with arches and heels extending off. Place hand on support for balance.",
+        "execution": "Raise heels by extending ankles as high as possible. Lower heels by bending ankles until calves are stretched. Repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/Gastrocnemius/DBSingleLegCalfRaise.gif",
+      "muscles": {
+        "target": "Gastrocnemius"
+      },
+      "name": "Dumbbell Single Leg Calf Raise",
+      "classification": {
+        "mechanics": "Isolated",
+        "force": "Push",
+        "utility": "Basic or Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Grasp dumbbell in one hand to side. Position toes and balls of feet on calf block with arches and heels extending off. Place hand on support for balance. Lift other leg to rear by bending knee.",
+        "execution": "Raise heel by extending ankle as high as possible. Lower heel by bending ankle until calf is stretched. Repeat. Continue with opposite leg."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/TibialisAnterior/DBReverseCalfRaise.gif",
+      "muscles": {
+        "target": "Tibialis Anterior"
+      },
+      "name": "Dumbbell Reverse Calf Raise",
+      "classification": {
+        "mechanics": "Isolated",
+        "force": "Pull",
+        "utility": "Basic or Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Grasp dumbbell in one hand to side. Position heels on forward edge of platform. Grasp support with other hand for balance.",
+        "execution": "Pull forefoot of both feet up toward body as far as possible. Return by extending feet until toes are pointed downward. Repeat."
+      }
+    },
+    {
+      "gif": "http://www.exrx.net/AnimatedEx/TibialisAnterior/DBSingleLegReverseCalfRaise.gif",
+      "muscles": {
+        "target": "Tibialis Anterior"
+      },
+      "name": "Dumbbell Single Leg Reverse Calf Raise",
+      "classification": {
+        "mechanics": "Isolated",
+        "force": "Pull",
+        "utility": "Auxiliary"
+      },
+      "instructions": {
+        "preparation": "Grasp dumbbell in one hand to side. Position one heel on forward edge of platform. Grasp support with other hand for balance. Lift other leg to rear by bending knee.",
+        "execution": "Pull forefoot up toward body as far as possible. Return by extending foot until toes are pointed downward. Repeat. Continue with opposite leg."
+      }
+    }
+  ]
+}
