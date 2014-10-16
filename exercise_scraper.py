@@ -9,6 +9,7 @@ __author__ = 'jason.a.parent@gmail.com (Jason Parent)'
 # Standard library imports...
 from itertools import chain, imap
 
+import argparse
 import json
 import re
 import sys
@@ -74,6 +75,7 @@ def name(html):
 
 def gif(html):
     """The animated GIF that demonstrates the exercise."""
+    global EXRX_URL
     image = html.find('img', src=re.compile(r'AnimatedEx[^.]*.gif'))
 
     return urlparse.urljoin(EXRX_URL, image['src'].lstrip('../../'))
@@ -175,7 +177,9 @@ def create_exercise_object(html):
     return exercise
 
 
-def exercise_scraper():
+# TODO: Use threading...
+def exercise_scraper(*equipment):
+    global EXRX_LISTS_URL
     exercises = list()
     num_errors = 0
 
@@ -200,13 +204,14 @@ def exercise_scraper():
                 def get_exercise_links(html, *equipment_types):
                     return list(chain(*imap(lambda e: html.find_all('a', href=re.compile(e)), equipment_types)))
 
-                for link in get_exercise_links(weight_exercises_dir_html, r'/BB', r'/DB'):
+                for link in get_exercise_links(weight_exercises_dir_html, *equipment):
                     url = urlparse.urljoin(url, link['href'])
                     request = requests.get(url)
 
                     if request.status_code == requests.codes.ok:
                         exercise_html = bs4.BeautifulSoup(request.content)
 
+                        # TODO: Print to log instead of console...
                         try:
                             exercise = create_exercise_object(exercise_html)
                             print('Adding:', exercise['name'])
@@ -221,7 +226,23 @@ def exercise_scraper():
 
 
 def main():
-    exercises = exercise_scraper()
+    EQUIPMENT_MAP = {
+        'barbell': r'/BB',
+        'dumbbell': r'/DB'
+    }
+
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--equipment', dest='equipment', action='store', nargs='+', help='Included equipment')
+    parsed = parser.parse_args()
+
+    equipment = (EQUIPMENT_MAP['barbell'], EQUIPMENT_MAP['dumbbell'])
+
+    if parsed.equipment:
+        equipment = [EQUIPMENT_MAP[e] for e in parsed.equipment]
+    else:
+        print('No equipment specified...')
+
+    exercises = exercise_scraper(*equipment)
     exercises_json = json.dumps({
         'exercises': exercises
     })
