@@ -7,6 +7,8 @@ from __future__ import print_function
 __author__ = 'jason.a.parent@gmail.com (Jason Parent)'
 
 # Standard library imports...
+from itertools import chain, imap
+
 import json
 import re
 import sys
@@ -22,145 +24,152 @@ EXRX_URL = 'http://www.exrx.net/'
 EXRX_LISTS_URL = 'http://www.exrx.net/Lists/'
 
 
-def is_exercise_page(html):
-    # Check has instructions...
-    has_instructions = html.find_all(lambda t: t.name == 'h2' and t.string == 'Instructions')
+def reduce_whitespace(text):
+    """Removes leading and trailing whitespace and reduces internal whitespace to single spaces."""
+    return re.sub(r'\s+', ' ', text).strip()
 
-    if not has_instructions:
-        print('No instructions')
 
-    # Check has comments...
-    # has_comments = html.find_all(lambda t: t.name == 'h2' and t.string == 'Comments')
-    #
-    # if not has_comments:
-    #     print('No comments')
+def find_tag_with_text(html, tag_name, text):
+    """Finds a single tag in the given HTML with the specified name and text."""
+    return html.find(lambda t: t.name == tag_name and reduce_whitespace(t.get_text()).startswith(text))
 
-    # Check has classification...
-    has_classification = html.find_all(lambda t: t.name == 'h2' and t.string == 'Classification')
 
-    if not has_classification:
-        print('No classification')
+def find_tags_with_text(html, tag_name, text):
+    """Finds all tags in the given HTML with the specified name and text."""
+    return html.find_all(lambda t: t.name == tag_name and reduce_whitespace(t.get_text()).startswith(text))
 
-    # Check has muscles...
-    has_muscles = html.find_all(lambda t: t.name == 'h2' and t.string == 'Muscles')
 
-    if not has_muscles:
-        print('No muscles')
+def find_tag_with_child(html, tag_name, child):
+    """
+    Finds a single tag in the given HTML with the specified tag name
+    that contains the specified child tag name.
+    """
+    return html.find(lambda t: t.name == tag_name and t.find(child))
 
-    return bool(has_instructions and has_classification and has_muscles)
-    # return bool(has_instructions and has_comments and has_classification and has_muscles)
+
+def find_tag_with_parent(html, tag_name, parent):
+    """
+    Finds a single tag in the given HTML with the specified tag name
+    that contains the specified parent tag name.
+    """
+    return html.find(lambda t: t.name == parent and t.find(tag_name)).find(tag_name)
+
+
+def find_sibling_element(tag, sibling):
+    """Finds a sibling tag with the specified name for the specified tag."""
+    sibling_node = tag.next_sibling
+
+    while not isinstance(sibling_node, bs4.element.Tag) and sibling_node.name != sibling:
+        sibling_node = sibling_node.next_sibling
+
+    return sibling_node
+
+
+def name(html):
+    """The name of the exercise."""
+    heading = find_tag_with_parent(html, tag_name='a', parent='h1')
+
+    return re.sub(r'\s+', ' ', heading.get_text())
+
+
+def gif(html):
+    """The animated GIF that demonstrates the exercise."""
+    image = html.find('img', src=re.compile(r'AnimatedEx[^.]*.gif'))
+
+    return urlparse.urljoin(EXRX_URL, image['src'].lstrip('../../'))
+
+
+def instructions(html, heading_text):
+    """Instructions for the exercise."""
+    heading = find_tag_with_text(html, tag_name='p', text=heading_text)
+
+    # Handle missing 'Preparation' heading...
+    if not heading:
+        heading = find_tag_with_text(html, tag_name='h2', text='Instructions')
+
+    content_element = find_sibling_element(heading, sibling='dl')
+    text = ''.join([tag.get_text() for tag in content_element.find_all('dd')])
+
+    return reduce_whitespace(text)
+
+
+def comments(html):
+    """Comments for the exercise."""
+    heading = find_tag_with_text(html, tag_name='h2', text='Comments')
+    content_element = find_sibling_element(heading, sibling='dl')
+    text = ''.join([tag.get_text() for tag in content_element.find_all('dd')])
+
+    return reduce_whitespace(text)
+
+
+def classification(html, heading_text):
+    """Classification for the exercise."""
+    heading = find_tag_with_text(html, tag_name='td', text=heading_text)
+    content_element = find_sibling_element(heading, sibling='td')
+    text = content_element.get_text()
+
+    return reduce_whitespace(text)
+
+
+def muscles(html, heading_text):
+    """Muscles for the exercise."""
+    heading = find_tag_with_text(html, 'p', text=heading_text)
+    content_element = find_sibling_element(heading, sibling='ul')
+    # Currently, on getting first target muscle...
+    text = content_element.find('li').get_text()
+
+    return reduce_whitespace(text)
 
 
 def create_exercise_object(html):
     exercise = dict()
 
-    # Add gif...
-    try:
-        def gif_filter(tag):
-            src = tag.attrs.get('src', '')
-            return tag.name == 'img' and '.gif' in src and 'AnimatedEx' in src
-
-        gif = html.find(gif_filter)
-        gif = gif.attrs.get('src', '').lstrip('../../')
-
-        if gif:
-            exercise['gif'] = urlparse.urljoin(EXRX_URL, gif)
-    except Exception:
-        raise Exception('Error adding gif...')
-
     # Add name...
     try:
-        name = html.find(lambda t: t.name == 'a' and t.parent.name == 'h1').string
-        name = re.sub(r'\s+', ' ', name)
-        exercise['name'] = name
+        exercise['name'] = name(html)
     except Exception:
         raise Exception('Error adding name...')
 
-    # Add instructions...
-    def get_instructions_sub(title):
-        p = html.find(lambda t: t.name == 'p' and t.string == title)
-        sibling = p.next_sibling
-
-        while not isinstance(sibling, bs4.element.Tag) and sibling.name != 'dl':
-            sibling = sibling.next_sibling            
-
-        return ''.join([re.sub(r'\s+', ' ', tag.string) for tag in sibling.dd]).strip()
-
+    # Add gif...
     try:
-        preparation = get_instructions_sub('Preparation')
-        execution = get_instructions_sub('Execution')
+        exercise['gif'] = gif(html)
+    except Exception:
+        raise Exception('Error adding gif...')
+
+    # Add instructions...
+    try:
         exercise['instructions'] = {
-            'preparation': preparation,
-            'execution': execution
+            'preparation': instructions(html, heading_text='Preparation'),
+            'execution': instructions(html, heading_text='Execution')
         }
     except Exception:
         raise Exception('Error adding instructions...')
 
     # Add comments...
-    # def get_comments_sub():
-    #     h2 = html.find(lambda t: t.name == 'h2' and t.string == 'Comments')
-    #     sibling = h2.next_sibling
-    #
-    #     while not isinstance(sibling, bs4.element.Tag) and sibling.name != 'dl':
-    #         sibling = sibling.next_sibling
-    #
-    #     return ''.join([re.sub(r'\s+', ' ', tag.string) for tag in sibling.dd]).strip()
-    #
-    # comments = get_comments_sub()
-    #
-    # exercise['comments'] = comments
+    try:
+        exercise['comments'] = comments(html)
+    except Exception:
+        raise Exception('Error adding comments...')
 
     # Add classification...
-    classification_table = html.find('blockquote').find('table')
-
-    def find_classification_value(key):
-        def is_td(tag):
-            return (tag.name == 'td' and
-                    tag.b and
-                    tag.b.string and
-                    tag.b.string.find(key) != -1)
-
-        td = classification_table.find(is_td)
-        sibling = td.next_sibling
-
-        while not isinstance(sibling, bs4.element.Tag) and sibling.name != 'td':
-            sibling = sibling.next_sibling
-
-        return ''.join([re.sub(r'\s+', ' ', s) for s in sibling.strings]).strip()
-
     try:
-        utility = find_classification_value('Utility')
-        mechanics = find_classification_value('Mechanics')
-        force = find_classification_value('Force')
         exercise['classification'] = {
-            'utility': utility,
-            'mechanics': mechanics,
-            'force': force
+            'utility': classification(html, 'Utility'),
+            'mechanics': classification(html, 'Mechanics'),
+            'force': classification(html, 'Force')
         }
     except Exception:
         raise Exception('Error adding classification...')
 
     # Add muscles...
-    def get_muscles_sub(title):
-        p = html.find(lambda t: t.name == 'p' and t.string == title)
-        sibling = p.next_sibling
-
-        while not isinstance(sibling, bs4.element.Tag) and sibling.name != 'ul':
-            sibling = sibling.next_sibling
-
-        return [re.sub(r'\s+', ' ', ''.join(li.strings)).strip()
-                for li in sibling.find_all('li') if li.strings]
-
     try:
-        target = ''.join(get_muscles_sub('Target'))
-        # synergists = get_muscles_sub('Synergists')
-        # stabilizers = get_muscles_sub('Stabilizers')
         exercise['muscles'] = {
-            'target': target,
-            # 'synergists': synergists,
-            # 'stabilizers': stabilizers
+            'target': muscles(html, 'Target'),
+            # 'synergists': muscles(html, 'Synergists'),
+            # 'stabilizers': muscles(html, 'Stabilizers')
         }
     except Exception:
+        # Error probably occurring with specialized exercise (i.e. Turkish Get Up)...
         raise Exception('Error adding muscles...')
 
     return exercise
@@ -168,6 +177,7 @@ def create_exercise_object(html):
 
 def exercise_scraper():
     exercises = list()
+    num_errors = 0
 
     # Retrieve the exercises main page...
     exercises_dir_url = urlparse.urljoin(EXRX_LISTS_URL, 'Directory.html')
@@ -177,48 +187,35 @@ def exercise_scraper():
         exercises_dir_html = bs4.BeautifulSoup(exercises_dir_request.content)
 
         # Get all links that lead to exercise groups...
-        def is_exercise_group_link(tag):
-            return (tag.name == 'a' and 
-                    tag.has_attr('href') and 
-                    tag['href'].startswith('ExList') and 
-                    tag['href'].find('#') == -1)
+        exercise_group_links = exercises_dir_html.find_all('a', href=re.compile(r'ExList[^#]*#'))
 
-        for link in exercises_dir_html.find_all(is_exercise_group_link):
-            href = link['href']
-            url = urlparse.urljoin(EXRX_LISTS_URL, href)
+        for link in exercise_group_links:
+            url = urlparse.urljoin(EXRX_LISTS_URL, link['href'])
             request = requests.get(url)
 
             if request.status_code == requests.codes.ok:
                 weight_exercises_dir_html = bs4.BeautifulSoup(request.content)
 
                 # Get all links that lead to exercises...
-                def is_exercise_link(tag):
-                    return (tag.name == 'a' and 
-                            tag.has_attr('href') and 
-                            tag['href'].find('WeightExercises') != -1)
+                def get_exercise_links(html, *equipment_types):
+                    return list(chain(*imap(lambda e: html.find_all('a', href=re.compile(e)), equipment_types)))
 
-                import itertools
-
-                barbell_links = iter(weight_exercises_dir_html.find_all('a', href=re.compile(r'/BB')))
-                dumbbell_links = iter(weight_exercises_dir_html.find_all('a', href=re.compile(r'/DB')))
-
-                for link in list(itertools.chain(barbell_links, dumbbell_links)):
-                    href = link['href']
-                    url = urlparse.urljoin(url, href)
+                for link in get_exercise_links(weight_exercises_dir_html, r'/BB', r'/DB'):
+                    url = urlparse.urljoin(url, link['href'])
                     request = requests.get(url)
 
                     if request.status_code == requests.codes.ok:
                         exercise_html = bs4.BeautifulSoup(request.content)
 
-                        if is_exercise_page(exercise_html):
-                            try:
-                                exercise = create_exercise_object(exercise_html)
-                                exercises.append(exercise)
-                            except Exception, error:
-                                print(error, url)
+                        try:
+                            exercise = create_exercise_object(exercise_html)
+                            print('Adding:', exercise['name'])
+                            exercises.append(exercise)
+                        except Exception, error:
+                            num_errors += 1
+                            print(error, url)
 
-                        else:
-                            print('Not exercise page:', url)
+    print('# errors:', num_errors)
 
     return exercises
 
