@@ -21,8 +21,8 @@ import bs4
 import requests
 
 
-EXRX_URL = 'http://www.exrx.net/'
-EXRX_LISTS_URL = 'http://www.exrx.net/Lists/'
+EXRX_URL = 'http://localhost:8000'
+EXRX_LISTS_URL = 'http://localhost:8000/Lists/'
 
 
 def reduce_whitespace(text):
@@ -117,13 +117,24 @@ def muscles(html, heading_text):
     """Muscles for the exercise."""
     heading = find_tag_with_text(html, 'p', text=heading_text)
     content_element = find_sibling_element(heading, sibling='ul')
-    # Currently, on getting first target muscle...
-    text = content_element.find('li').get_text()
+    muscles_list = content_element.find_all('li')
+    return [reduce_whitespace(m.get_text()) for m in muscles_list]
 
-    return reduce_whitespace(text)
 
+def find_muscle_headings(html):
+    title = find_tag_with_text(html, tag_name='h2', text='Muscles')
+    muscle_heading = find_sibling_element(title, sibling='p')
+    headings = []
+    while muscle_heading is not None:
+        heading_text = ''.join(muscle_heading.find_all(text=True))
+        heading_text = reduce_whitespace(heading_text)
+        headings.append(heading_text)
+        # print(heading_text)
+        muscle_heading = muscle_heading.find_next_sibling('p')
+    return headings
 
 def create_exercise_object(html):
+    # print('muscle headings: {}'.format(find_muscle_headings(html)))
     exercise = dict()
 
     # Add name...
@@ -165,17 +176,16 @@ def create_exercise_object(html):
 
     # Add muscles...
     try:
-        exercise['muscles'] = {
-            'target': muscles(html, 'Target'),
-            # 'synergists': muscles(html, 'Synergists'),
-            # 'stabilizers': muscles(html, 'Stabilizers')
-        }
+        headings = find_muscle_headings(html)
+        mm = {}
+        for h in headings:
+            mm[h] = muscles(html, h)
+        exercise['muscles'] = mm
     except Exception:
         # Error probably occurring with specialized exercise (i.e. Turkish Get Up)...
         raise Exception('Error adding muscles...')
 
     return exercise
-
 
 # TODO: Use threading...
 def exercise_scraper(*equipment):
@@ -188,7 +198,7 @@ def exercise_scraper(*equipment):
     exercises_dir_request = requests.get(exercises_dir_url)
 
     if exercises_dir_request.status_code == requests.codes.ok:
-        exercises_dir_html = bs4.BeautifulSoup(exercises_dir_request.content)
+        exercises_dir_html = bs4.BeautifulSoup(exercises_dir_request.content, 'lxml')
 
         # Get all links that lead to exercise groups...
         exercise_group_links = exercises_dir_html.find_all('a', href=re.compile(r'ExList[^#]*#'))
@@ -198,27 +208,35 @@ def exercise_scraper(*equipment):
             request = requests.get(url)
 
             if request.status_code == requests.codes.ok:
-                weight_exercises_dir_html = bs4.BeautifulSoup(request.content)
+                weight_exercises_dir_html = bs4.BeautifulSoup(request.content, 'lxml')
 
-                # Get all links that lead to exercises...
-                def get_exercise_links(html, *equipment_types):
-                    return list(chain(*imap(lambda e: html.find_all('a', href=re.compile(e)), equipment_types)))
+                def top_level_li(tag):
+                    return tag.name == 'ul' and tag.parent.name != 'li'
+                res = weight_exercises_dir_html.find_all(top_level_li)
+                for r in res:
+                    top_list = r.find_all('li', recursive=False)
+                    for item in top_list:
+                        if item.contents[0].name is None:
+                            equipment = reduce_whitespace(item.contents[0])
+                            links = item.find_all('a')
+                            for link in links:
+                                url = urlparse.urljoin(url, link['href'])
+                                request = requests.get(url)
 
-                for link in get_exercise_links(weight_exercises_dir_html, *equipment):
-                    url = urlparse.urljoin(url, link['href'])
-                    request = requests.get(url)
+                                if request.status_code == requests.codes.ok:
+                                    exercise_html = bs4.BeautifulSoup(request.content, 'lxml')
 
-                    if request.status_code == requests.codes.ok:
-                        exercise_html = bs4.BeautifulSoup(request.content)
-
-                        # TODO: Print to log instead of console...
-                        try:
-                            exercise = create_exercise_object(exercise_html)
-                            print('Adding:', exercise['name'])
-                            exercises.append(exercise)
-                        except Exception, error:
-                            num_errors += 1
-                            print(error, url)
+                                    # TODO: Print to log instead of console...
+                                    try:
+                                        exercise = create_exercise_object(exercise_html)
+                                        exercise['equipment'] = equipment
+                                        exercise['source'] = url
+                                        print('Adding:', exercise['name'])
+                                        exercises.append(exercise)
+                                    except Exception, error:
+                                        num_errors += 1
+                                        print(error, url)
+                # return exercises
 
     print('# errors:', num_errors)
 
